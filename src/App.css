@@ -1,0 +1,21 @@
+.navbar-nav li>a {
+    color: "#FFADOO";
+}
+
+.navbar-nav:hover {
+    color: #333;
+}
+
+.navbar-nav:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.navbar-nav:hover::after {
+    width: 100%;
+  
+}

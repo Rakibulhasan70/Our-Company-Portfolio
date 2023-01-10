@@ -20,17 +20,17 @@ function App() {
   
   
   return (
-    <div>
-      <Header/>
+    <div className="App">
+      <Header />
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
-        <Route path="/home" element={<Home/>}></Route>
-        <Route path="/login" element={<Login/>}></Route>
-        <Route path="/registration" element={<Registration/>}></Route>
-        <Route path="/contactUs" element={<ContactUs/>}></Route>
-        <Route path="/aboutUs" element={<AboutUS/>}></Route>
-        <Route path="/services" element={<Service/>}></Route>
-        <Route path="/*" element={<NotFound/>}></Route>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/home" element={<Home />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/registration" element={<Registration />}></Route>
+        <Route path="/contactUs" element={<ContactUs />}></Route>
+        <Route path="/aboutUs" element={<AboutUS />}></Route>
+        <Route path="/services" element={<Service />}></Route>
+        <Route path="/*" element={<NotFound />}></Route>
       </Routes>
 
       {/* <RouterProvider router={router}></RouterProvider> */}
