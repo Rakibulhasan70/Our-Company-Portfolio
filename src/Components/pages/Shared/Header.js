@@ -11,14 +11,11 @@ const Header = () => {
     textDecoration: "bule",
   };
 
-<<<<<<< HEAD
   let activeClassName = "blue";
-=======
->>>>>>> 90272b6a2ade51fa716e49c020253f6d88fe0aa2
 
   return (
     <>
-     
+
       <div className="relative bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
@@ -57,7 +54,7 @@ const Header = () => {
               </button>
             </div>
             <nav className="hidden md:flex space-x-10">
-              
+
 
               <NavLink
                 className=" navbar-nav text-base font-medium text-gray-500 hover:text-gray-900"
@@ -236,22 +233,6 @@ const Header = () => {
             </div>
           </div>
         </div>
-<<<<<<< HEAD
-
-
-        {/*
-    Mobile menu, show/hide based on mobile menu state.
-
-    Entering: "duration-200 ease-out"
-      From: ""
-      To: ""
-    Leaving: "duration-100 ease-in"
-      From: "opacity-100 scale-100"
-      To: "opacity-0 scale-95"
-  */}
-
-=======
->>>>>>> 90272b6a2ade51fa716e49c020253f6d88fe0aa2
         <div
           className={
             open
@@ -438,7 +419,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div >
     </>
   );
 };
