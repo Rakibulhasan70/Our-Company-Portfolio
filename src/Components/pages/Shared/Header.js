@@ -7,14 +7,15 @@ const Header = () => {
   const [flyer, setFlyer] = React.useState(false);
   const [flyerTwo, setFlyerTwo] = React.useState(false);
 
-   let activeStyle = {
-     textDecoration: "bule",
-   };
+  let activeStyle = {
+    textDecoration: "bule",
+  };
 
+  let activeClassName = "blue";
 
   return (
     <>
-     
+
       <div className="relative bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
@@ -53,7 +54,7 @@ const Header = () => {
               </button>
             </div>
             <nav className="hidden md:flex space-x-10">
-              
+
 
               <NavLink
                 className=" navbar-nav text-base font-medium text-gray-500 hover:text-gray-900"
@@ -418,7 +419,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div >
     </>
   );
 };
