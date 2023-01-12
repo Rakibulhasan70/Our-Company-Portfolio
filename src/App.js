@@ -17,8 +17,8 @@ import NotFound from "./Components/pages/Shared/NotFound";
 import Header from "./Components/pages/Shared/Header";
 
 function App() {
-  
-  
+
+
   return (
     <div className="App">
       <Header />
