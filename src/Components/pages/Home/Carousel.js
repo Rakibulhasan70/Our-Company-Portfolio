@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 // import { useSwipeable } from "react-swipeable";
 // import { SlArrowDown } from 'react-icons/sl';
 // import LocationIconRed from '../../assets/Home/location-icon-red.png';
+import GreaterThan from '../../../Assets/greaterthan.png';
 import './Carousel.css';
 
 export const CarouselItem = ({ children, width }) => {
@@ -42,18 +43,15 @@ const Carousel = ({ children }) => {
     return (
         <div className='overflow-hidden'>
             <div className='flex justify-end gap-5 w-full mb-8'>
-                <button className='bg-white rounded-xl px-4 py-4 arrowShadow' onClick={() => {
+                <button className='bg-white rounded-xl px-5 py-4 arrowShadow' onClick={() => {
                     updateIndex(activeIndex - 1);
                 }}>
-                    {/* <SlArrowDown className='rotate-90 text-[#F74F22] text-2xl' /> */}
-                    Prev
-
+                    <img src={GreaterThan} alt="Grater than" className='rotate-180' />
                 </button>
-                <button className='bg-white rounded-xl px-4 py-4 arrowShadow' onClick={() => {
+                <button className='bg-white rounded-xl px-5 py-4 arrowShadow' onClick={() => {
                     updateIndex(activeIndex + 1);
                 }}>
-                    {/* <SlArrowDown className='-rotate-90 text-[#F74F22] text-2xl' /> */}
-                    Next
+                    <img src={GreaterThan} alt="Grater than" className='' />
                 </button>
             </div>
             <div className='whitespace-nowrap' style={{ transform: `translateX(-${activeIndex * 100}%)`, transition: 'transform 0.6s' }}>

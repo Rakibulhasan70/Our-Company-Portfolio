@@ -32,8 +32,6 @@ function App() {
         <Route path="/services" element={<Service />}></Route>
         <Route path="/*" element={<NotFound />}></Route>
       </Routes>
-
-      {/* <RouterProvider router={router}></RouterProvider> */}
     </div>
   );
 }
