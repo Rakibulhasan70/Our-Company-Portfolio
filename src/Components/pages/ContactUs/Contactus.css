@@ -27,9 +27,9 @@
      text-transform: uppercase;
  }
 
- .sec-title-style1 .clr-white {
+ /* .sec-title-style1 .clr-white {
      color: #ffffff;
- }
+ } */
 
  .sec-title-style1 .decor {
      position: relative;
@@ -208,7 +208,7 @@
  .contact-address-area {
      position: relative;
      display: block;
-     background: #ffffff;
+     /* background: #ffffff; */
      padding: 50px 0 50px;
      
  }

@@ -21,15 +21,7 @@ const ContactUs = () => {
                 <span></span>
               </div>
             </div>
-            {/* <div class="flex items-center gap-3">
-              <div class="decor-left">
-                <span></span>
-              </div>
-              <p>Quick Contact</p>
-              <div class="decor-right">
-                <span></span>
-              </div>
-            </div> */}
+            
             <div class="bottom-text">
               <p>
                 We are looking forward to work with you. Please contact us to
