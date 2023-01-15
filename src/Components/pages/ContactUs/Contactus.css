@@ -33,11 +33,16 @@
     text-transform: uppercase;
 }
 
-.sec-title-style1 .clr-white {
+<<<<<<< HEAD .sec-title-style1 .clr-white {
     color: #ffffff;
 }
 
-.sec-title-style1 .decor {
+=======
+
+/* .sec-title-style1 .clr-white {
+     color: #ffffff;
+ } */
+>>>>>>>49ec3e80440e295bbf8038096806a6699d9fe37e .sec-title-style1 .decor {
     position: relative;
     display: block;
     width: 70px;
@@ -214,9 +219,8 @@
 .contact-address-area {
     position: relative;
     display: block;
-    background: #ffffff;
+    /* background: #ffffff; */
     padding: 50px 0 50px;
-
 }
 
 .contact-address-area .sec-title-style1.max-width {

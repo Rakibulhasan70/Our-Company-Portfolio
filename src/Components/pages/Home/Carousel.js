@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import { useSwipeable } from "react-swipeable";
-// import { SlArrowDown } from 'react-icons/sl';
-// import LocationIconRed from '../../assets/Home/location-icon-red.png';
 import GreaterThan from '../../../Assets/greaterthan.png';
 import './Carousel.css';
 
@@ -43,12 +40,12 @@ const Carousel = ({ children }) => {
     return (
         <div className='overflow-hidden'>
             <div className='flex justify-end gap-5 w-full mb-8'>
-                <button className='bg-white rounded-xl px-5 py-4 arrowShadow' onClick={() => {
+                <button className='bg-white rounded-xl px-5 py-4 hover:shadow-sm shadow-lg transition-all arrowShadow' onClick={() => {
                     updateIndex(activeIndex - 1);
                 }}>
                     <img src={GreaterThan} alt="Grater than" className='rotate-180' />
                 </button>
-                <button className='bg-white rounded-xl px-5 py-4 arrowShadow' onClick={() => {
+                <button className='bg-white rounded-xl px-5 py-4 shadow-lg hover:shadow-sm transition-all arrowShadow' onClick={() => {
                     updateIndex(activeIndex + 1);
                 }}>
                     <img src={GreaterThan} alt="Grater than" className='' />

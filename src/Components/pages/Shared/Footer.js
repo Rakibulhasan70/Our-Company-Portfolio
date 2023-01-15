@@ -1,17 +1,17 @@
 import React from 'react';
-import FooterBg from '../../assets/footer-bg.png';
-import WhiteLogo from '../../assets/white-logo.png';
-import LocationIconYellow from '../../assets/location-icon-yellow.png';
-import CallIconYellow from '../../assets/call-icon-yellow.png';
-import EmailIconYellow from '../../assets/emial-icon-yellow.png';
-import FacebookLogo from '../../assets/facebook-logo.png';
-import LinkedinLogo from '../../assets/linkedin-logo.png';
+import FooterBg from '../../../Assets/footer-bg.png';
+// import WhiteLogo from '../../Assets/white-logo.png';
+import LocationIconYellow from '../../../Assets/location-icon-yellow.png';
+import CallIconYellow from '../../../Assets/call-icon-yellow.png';
+import EmailIconYellow from '../../../Assets/email-icon-yellow.png';
+import FacebookLogo from '../../../Assets/facebook-icon.png';
+import LinkedinLogo from '../../../Assets/linkedin-icon.png';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
-        <div>
+        <div className='mt-28'>
             <div className='relative' style={{ "backgroundImage": `url(${FooterBg})` }}>
                 <div className='max-w-7xl mx-auto'>
                     <div className='bg-[#09446F] rounded-2xl lg:px-12 md:px-12 px-5 lg:py-10 md:py-10 py-5 mx-3 absolute lg:-top-24 md:-top-24 -top-20'>
@@ -32,7 +32,7 @@ function Footer() {
                 <div className='max-w-7xl lg:mx-auto md:mx-auto mx-5 pt-40'>
                     <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-20 md:gap-20 gap-5 pb-12 FooterListBorder2'>
                         <div className='grid grid-cols-1 gap-8'>
-                            <img src={WhiteLogo} alt='White Logo' className='lg:w-44 md:w-44 w-36' />
+                            {/* <img src={WhiteLogo} alt='White Logo' className='lg:w-44 md:w-44 w-36' /> */}
                             <p className='text-base text-[#E3E6EA]'>Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum. There are many variations of passages</p>
                             <div className='grid grid-cols-1 gap-2'>
                                 <p className='bg-[#003A65] px-5 py-4 flex items-center gap-3 text-[#F6FAFF] text-sm font-semibold rounded-md w-64'><img src={CallIconYellow} alt='' />+880125 455785 55</p>
