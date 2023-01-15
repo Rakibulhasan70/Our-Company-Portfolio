@@ -164,22 +164,27 @@ const ContactUs = () => {
                         value={value}
                         onChange={setValue}
                       /> */}
-                    <input
+                    <PhoneInput
+                      country='bd'
+                      enableSearch='true'
+                    />
+
+                    {/* <input
                       id="company-name"
                       class="form-input effect-6"
                       type="Number"
                       placeholder="Your Number*"
                       required
-                    />
+                    /> */}
                   </p>
                   <p class="full-width">
-                    <select class="select form-input">
-                      <option value="value1">Catagory</option>
-                      <option value="value1">Website Creation</option>
-                      <option value="value2">Grapics design</option>
-                      <option value="value3">Responsive web site</option>
-                      <option value="value3">Bug Fixing</option>
-                      <option value="value3">Other</option>
+                    <select class="select form-input text-[#848484]">
+                      <option value="Catagory">Catagory</option>
+                      <option value="Website Creation">Website Creation</option>
+                      <option value="Grapics design">Grapics design</option>
+                      <option value="Responsive web site">Responsive web site</option>
+                      <option value="Bug Fixing">Bug Fixing</option>
+                      <option value="Others">Others</option>
                     </select>
                   </p>
                   <p class="full-width">
