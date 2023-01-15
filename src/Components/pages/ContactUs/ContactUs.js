@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 import "./Contactus.css";
 import contact_img from "../../../Assets/Business team work.png";
-import PhoneInput from "react-phone-input-2";
+
 import "react-phone-input-2/lib/style.css";
+import ReCAPTCHA from "react-google-recaptcha";
+import PhoneInput from "react-phone-input-2";
 
 const ContactUs = () => {
   const [value, setValue] = useState();
+  function onChange(value) {
+    console.log("Captcha value:", value);
+  }
+ 
   return (
     <div className="contact-body max-w-7xl lg:mx-auto md:mx-auto mx-5">
       <section class="contact-address-area">
@@ -21,7 +27,7 @@ const ContactUs = () => {
                 <span></span>
               </div>
             </div>
-            
+
             <div class="bottom-text">
               <p>
                 We are looking forward to work with you. Please contact us to
@@ -198,7 +204,11 @@ const ContactUs = () => {
                     ></textarea>
                     <small></small>
                   </p>
-
+                  <ReCAPTCHA
+                    sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                    onChange={onChange}
+                  />
+                  ,
                   <button className="submit-button full-width" type="submit">
                     <div class="svg-wrapper-1 mx-auto ">
                       <div class="svg-wrapper">
@@ -253,3 +263,5 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+
+// 6LcIGfkjAAAAAKBsUtr6U-7WyUg9E-RRlcHgbHoy

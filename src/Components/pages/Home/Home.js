@@ -8,6 +8,7 @@ import WebDesignIcon from '../../../Assets/web-design-icon.png'
 import CountUp from 'react-countup'
 import Footer from '../Shared/Footer';
 
+
 const Home = () => {
     return (
         <div>

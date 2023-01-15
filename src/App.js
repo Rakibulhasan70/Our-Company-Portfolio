@@ -15,6 +15,7 @@ import Registration from "./Components/pages/Authentication/Registration";
 import NotFound from "./Components/pages/Shared/NotFound";
 // import Navbar from "./Components/pages/Shared/Navbar";
 import Header from "./Components/pages/Shared/Header";
+import OurTeam from "./Components/Ourteam/OurTeam";
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/registration" element={<Registration />}></Route>
         <Route path="/contactUs" element={<ContactUs />}></Route>
         <Route path="/aboutUs" element={<AboutUS />}></Route>
+        <Route path="/ourteam" element={<OurTeam />}></Route>
         <Route path="/services" element={<Service />}></Route>
         <Route path="/*" element={<NotFound />}></Route>
       </Routes>
