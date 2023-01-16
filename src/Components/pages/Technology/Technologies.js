@@ -14,7 +14,7 @@ const Technologies = () => {
         <div>
             <div>
                 <div className='text-2xl font-semibold text-center font-mono bg-[#eff4fa] w-[50%] lg:w-[20%] mx-auto py-2 mt-10'>
-                    <h2 >Technologies</h2>
+                    <h2 >Technologiess</h2>
                 </div>
 
 
