@@ -1,67 +1,90 @@
 import React from 'react';
 import './Services.css'
+import setting from '../../../Assets/setting.png'
+import speed from '../../../Assets/speed.png'
+import protect from '../../../Assets/protect.png'
+import backup from '../../../Assets/backup.png'
+import freessl from '../../../Assets/freessl.png'
+import database from '../../../Assets/database.png'
 
 const Service = () => {
   return (
     <div>
-      <section class="c-section">
-        <h2 class="c-section__title servicesh2">
-          <span>Our Services</span>
-        </h2>
-        <ul class="c-services">
-          <li class="c-services__item">
-            <h3 className="servicesh3">Responsive Web Design</h3>
-            <p className="servicesp">
-              We leverage the concept of mobile-first design. Through our
-              work, we focus on designing an experience that works across
-              different screen sizes.
-            </p>
-          </li>
-          <li class="c-services__item">
-            <h3 className="servicesh3">UX Auditing</h3>
-            <p className="servicesp">
-              If you are unsure of how your app behaves, we can help by doing
-              a detailed UX audit that will highlight most of the issues in
-              your product. From there, we can take it further and fix all
-              issues.
-            </p>
-          </li>
-          <li class="c-services__item">
-            <h3 className="servicesh3">Front End Development</h3>
-            <p className="servicesp">
-              We are Front End masters with a deep focus on HTML, CSS. The
-              result of our work is a responsive, accessible, and performant
-              websites. Either you have the design ready and want us to code
-              it, or you want us to do both design and code, we&rsquo;re happy
-              to do so.
-            </p>
-          </li>
-          <li class="c-services__item">
-            <h3 className="servicesh3">UX Consultation</h3>
-            <p className="servicesp">
-              If you don&rsquo;t know what kind of service to request from us,
-              don&rsquo;t worry. We can help and see what fits your business
-              and your budget.
-            </p>
-          </li>
-          <li class="c-services__item">
-            <h3 className="servicesh3">Mobile Apps Design</h3>
-            <p>
-              To reach more customers and the goals of your business, a mobile
-              application is necessary these days. We will work on the app
-              design from scratch to final tested prototype.
-            </p>
-          </li>
-          <li class="c-services__item">
-            <h3 className="servicesh3">UX Research</h3>
-            <p className="servicesp">
-              It&rsquo;s important to research deeply for the product you want
-              to build. We help in that by defining the user audience, working
-              on user stories, competitive analysis and much more.{" "}
-            </p>
-          </li>
-        </ul>
-      </section>
+      <section class="services">
+    <div class="s-container">
+        <div class="services-title">
+            <div class="title">
+                <h2><span> Our </span> Services</h2>
+            </div>
+        </div>
+
+        <div class="services-box">
+
+            <div class="box">
+                <div class="ser-box">
+                    <div class="icon">
+                        <img src={setting}/>
+                    </div>
+                     <h4>Web Development</h4>
+                     <p>Lorem Ipsum is simply dummy and typesetting industry.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="ser-box">
+                    <div class="icon">
+                        <img src={speed}/>
+                    </div>
+                     <h4>Fast Preformance</h4>
+                     <p>Lorem Ipsum is simply dummy and typesetting industry.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="ser-box">
+                    <div class="icon">
+                        <img src={protect}/>
+                    </div>
+                     <h4>UI/UX Design</h4>
+                     <p>Lorem Ipsum is simply dummy and typesetting industry.</p>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="ser-box">
+                    <div class="icon">
+                        <img src={backup}/>
+                    </div>
+                     <h4>Back-end Development</h4>
+                     <p>Lorem Ipsum is simply dummy and typesetting industry.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="ser-box">
+                    <div class="icon">
+                        <img src={freessl}/>
+                    </div>
+                     <h4>Mobile App Development</h4>
+                     <p>Lorem Ipsum is simply dummy and typesetting industry.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="ser-box">
+                    <div class="icon">
+                        <img src={database}/>
+                    </div>
+                     <h4>Product Engineering</h4>
+                     <p>Lorem Ipsum is simply dummy and typesetting industry.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
     </div>
   );
 };
