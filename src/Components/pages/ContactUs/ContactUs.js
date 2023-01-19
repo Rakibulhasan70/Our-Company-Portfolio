@@ -61,7 +61,7 @@ const ContactUs = () => {
                   <span class="path20"></span>
                 </span>
               </div>
-              <h3 className="text-2xl">Affordable Pricing</h3>
+              <h3 className="text-xl">Affordable Pricing</h3>
               <h2>Lorem Ipsum is simply dummy</h2>
             </div>
 
@@ -114,12 +114,12 @@ const ContactUs = () => {
                   <span class="path4"></span>
                 </span>
               </div>
-              <h3 className="text-2xl">
+              <h3 className="text-xl">
                 {" "}
-                <span className="from-text text-5xl">24/7</span> Real Time
+                <span className="from-text text-xl">24/7</span> Real Time
                 Support
               </h3>
-              <h2>Lorem Ipsum is simply dummy</h2>
+              {/* <h2>Lorem Ipsum is simply dummy</h2> */}
             </div>
           </div>
         </div>
