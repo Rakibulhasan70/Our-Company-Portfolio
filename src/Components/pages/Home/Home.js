@@ -7,6 +7,7 @@ import Quote from '../../../Assets/quote.png';
 import WebDesignIcon from '../../../Assets/web-design-icon.png'
 import CountUp from 'react-countup'
 import Footer from '../Shared/Footer';
+import Technologies from '../Technology/Technologies';
 
 
 
@@ -345,8 +346,57 @@ const Home = () => {
           </div>
         </section>
 
-        <Footer></Footer>
-      </div>
+            <Technologies></Technologies>
+
+            <section className='bg-[#221F3C] py-16'>
+                <div className='max-w-7xl mx-auto'>
+                    <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8'>
+                        <div className='bg-[#262051] hover:bg-[#F6FAFF] transition-all overflow-hidden h-80 relative border-[1px] border-slate-700 group'>
+                            <span className='text-[#332d5f] group-hover:text-[#ebe7ff] transition-all text-[100px] font-extrabold absolute -top-11 left-0'>01</span>
+                            <div className='px-11 py-14 absolute'>
+                                <h3 className='text-white group-hover:text-[#4338CA] transition-all text-xl font-bold'>Product Design</h3>
+                                <p className='my-3 text-[#aeaacb] text-'>Our product design service lets you prototype, test and validate your ideas.</p>
+                            </div>
+                            <div className='h-56 w-16 flex justify-center items-center bg-[#332d5f] transition-all group-hover:bg-[#ebe7ff] absolute -bottom-20 right-0 rotate-45'>
+                                <img src={WebDesignIcon} alt="" className='absolute bottom-[95px] -rotate-90 h-12 w-12' />
+                            </div>
+                        </div>
+                        <div className='bg-[#262051] hover:bg-[#F6FAFF] transition-all overflow-hidden h-80 relative border-[1px] border-slate-700 group'>
+                            <span className='text-[#332d5f] group-hover:text-[#ebe7ff] transition-all text-[100px] font-extrabold absolute -top-11 left-0'>02</span>
+                            <div className='px-11 py-14 absolute'>
+                                <h3 className='text-white group-hover:text-[#4338CA] transition-all text-xl font-bold'>Development</h3>
+                                <p className='my-3 text-[#aeaacb] text-'>Our product design service lets you prototype, test and validate your ideas.</p>
+                            </div>
+                            <div className='h-56 w-16 flex justify-center items-center bg-[#332d5f] transition-all group-hover:bg-[#ebe7ff] absolute -bottom-20 right-0 rotate-45'>
+                                <img src={WebDesignIcon} alt="" className='absolute bottom-[95px] -rotate-90 h-12 w-12' />
+                            </div>
+                        </div>
+                        <div className='bg-[#262051] hover:bg-[#F6FAFF] transition-all overflow-hidden h-80 relative border-[1px] border-slate-700 group'>
+                            <span className='text-[#332d5f] group-hover:text-[#ebe7ff] transition-all text-[100px] font-extrabold absolute -top-11 left-0'>03</span>
+                            <div className='px-11 py-14 absolute'>
+                                <h3 className='text-white group-hover:text-[#4338CA] transition-all text-xl font-bold'>Product Design</h3>
+                                <p className='my-3 text-[#aeaacb] text-'>Our product design service lets you prototype, test and validate your ideas.</p>
+                            </div>
+                            <div className='h-56 w-16 flex justify-center items-center bg-[#332d5f] transition-all group-hover:bg-[#ebe7ff] absolute -bottom-20 right-0 rotate-45'>
+                                <img src={WebDesignIcon} alt="" className='absolute bottom-[95px] -rotate-90 h-12 w-12' />
+                            </div>
+                        </div>
+                        <div className='bg-[#262051] hover:bg-[#F6FAFF] transition-all overflow-hidden h-80 relative border-[1px] border-slate-700 group'>
+                            <span className='text-[#332d5f] group-hover:text-[#ebe7ff] transition-all text-[100px] font-extrabold absolute -top-11 left-0'>04</span>
+                            <div className='px-11 py-14 absolute'>
+                                <h3 className='text-white group-hover:text-[#4338CA] transition-all text-xl font-bold'>Product Design</h3>
+                                <p className='my-3 text-[#aeaacb] text-'>Our product design service lets you prototype, test and validate your ideas.</p>
+                            </div>
+                            <div className='h-56 w-16 flex justify-center items-center bg-[#332d5f] transition-all group-hover:bg-[#ebe7ff] absolute -bottom-20 right-0 rotate-45'>
+                                <img src={WebDesignIcon} alt="" className='absolute bottom-[95px] -rotate-90 h-12 w-12' />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <Footer></Footer>
+        </div >
     );
 };
 
