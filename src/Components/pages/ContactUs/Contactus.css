@@ -33,22 +33,11 @@
     text-transform: uppercase;
 }
 
-<<<<<<< HEAD .sec-title-style1 .clr-white {
-    color: #ffffff;
-}
-
-=======
 
 /* .sec-title-style1 .clr-white {
      color: #ffffff;
  } */
->>>>>>>49ec3e80440e295bbf8038096806a6699d9fe37e .sec-title-style1 .decor {
-    position: relative;
-    display: block;
-    width: 70px;
-    height: 5px;
-    margin: 19px 0 0;
-}
+ 
 
 .sec-title-style1 .decor:before {
     position: absolute;

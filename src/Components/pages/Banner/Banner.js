@@ -1,22 +1,72 @@
 import React from 'react';
-import bannerImage from '../../../../src/Assets/hero-img.png'
+import TypeWriterEffect from "react-typewriter-effect";
 import './Banner.css'
 
 const Banner = () => {
     return (
-        <div className='bg-[#37517e]'>
-            <div className='grid grid-cols-1 gap-y-3 lg:grid-cols-2 mx-5 lg:mx-14 bg-[#37517e] items-center'>
-                <div>
-                    <p className='mt-10 text-4xl lg:text-5xl font-bold text-white leading-tight font'>Better Solutions For Your Business</p>
-                    <p className=' mt-4 text-xl lg:text-2xl text-[#7991ac] font-medium '>We are team of talented people making your Preference </p>
-
-                    <button className='mt-4 font-medium  text-lg leading-none inline-block bg-[#47b2e4] text-white px-6 pt-2 pb-3 rounded-3xl'>Demo</button>
-                </div>
-                <div>
-                    <img className='' src={bannerImage} alt="" />
-                </div>
+      <div className="main">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-12 flex justify-center items-center">
+            
+              <div>
+                <h1 className='text-5xl text-white'>Company Name</h1>
+                <TypeWriterEffect
+                  className="text-5xl text-white"
+                  textStyle={{
+                    fontFamily: "Red Hat Display",
+                    color: "#A370F0",
+                    fontWeight: 900,
+                    fontSize: "2em",
+                  }}
+                  startDelay={2000}
+                  cursorColor="#3F3D56"
+                  multiText={[
+                    "We provide Web Design",
+                    "We provide Grapics Design",
+                    "We provide Bug Fixing",
+                    "We provide web Development",
+                  ]}
+                  multiTextDelay={1000}
+                  typeSpeed={90}
+                />
+                <p className='text-xl text-white'>
+                  We believe in serving excellence and Value return to our
+                  clients by using new-age technologies to provide seamless
+                  services and dependable deliveries.
+                </p>
+                <p class=" mt-10">
+                  <button class="cssbuttons-io-button">
+                    {" "}
+                    Get started
+                    <div class="icon">
+                      <svg
+                        height="24"
+                        width="24"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path
+                          d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </button>
+                </p>
+              </div>
+            
+            <div className='mt-16'>
+                <img
+                className='rounded-lg border border-white'
+                  src="https://cdn.dribbble.com/users/1814344/screenshots/11954759/media/567476f9c2e4151e52edd69845c61fb1.png?compress=1&resize=768x576&vertical=top"
+                  alt=".."
+                />
             </div>
+          </div>
         </div>
+        
+      </div>
     );
 };
 
