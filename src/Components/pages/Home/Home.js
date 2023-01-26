@@ -8,6 +8,7 @@ import WebDesignIcon from '../../../Assets/web-design-icon.png'
 import CountUp from 'react-countup'
 import Footer from '../Shared/Footer';
 import Technologies from '../Technology/Technologies';
+import Abc from '../Technology/Abc';
 
 
 const Home = () => {
@@ -196,6 +197,7 @@ const Home = () => {
             </section>
 
             <Technologies></Technologies>
+            {/* <Abc></Abc> */}
 
             <section className='bg-[#221F3C] py-16'>
                 <div className='max-w-7xl mx-auto'>

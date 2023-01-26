@@ -98,10 +98,9 @@
 }
 
 .sliders .slide-track {
-    animation: scroll 70s linear infinite;
+    animation: scroll 70s linear infinite running;
     display: flex;
     width: calc(250px * 18);
-
 }
 
 .sliders .slide-track:hover {
@@ -118,6 +117,7 @@
 .slide:nth-child(1),
 .slide:nth-child(10) {
     background-color: white;
+
 
 
 }
