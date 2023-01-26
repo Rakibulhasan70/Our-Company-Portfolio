@@ -9,17 +9,32 @@ import saifulvai from '../../Assets/Hridoy vai2.fd4c865e5b168ce7edca.png'
 const OurTeam = () => {
     return (
       <div>
-        <section class="our-team-section">
+        <div>
+          <h1 className="text-5xl font-bold flex justify-center items-center mt-10">
+            Meet Our Team
+          </h1>
+          <p className="text-xl flex justify-center items-center mt-6">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis,
+            nemo! Eos incidunt rem quam dicta?
+          </p>
+        </div>
+        <section class="our-team-section mt-6">
           <div class=" max-w-7xl lg:mx-auto md:mx-auto mx-5">
             <div class="grid grid-cols-4 gap-20 ">
               <div>
                 <div class="our-team">
                   <div class="pic">
-                    <img src="https://i.ibb.co/8x9xK4H/team.jpg" />
+                    <img src={jubairvai} alt="..." />
+                    <h2 className="text-2xl font-bold whitespace-nowrap">
+                      Team Leader
+                    </h2>
                   </div>
                   <div class="team-content">
-                    <h3 class="title">Team 1</h3>
-                    <span class="post">Inhaber & Geschäftsführer</span>
+                    <h3 class="title">Jubair bhai</h3>
+
+                    <span class="post">
+                      <p>Jubairbhai@gmail.com</p>
+                    </span>
                   </div>
                   <ul class="social">
                     <li>
@@ -143,11 +158,17 @@ const OurTeam = () => {
               <div>
                 <div class="our-team">
                   <div class="pic">
-                    <img src="https://i.ibb.co/8x9xK4H/team.jpg" />
+                    <img src={nayeemvai} alt="..." />
+                    <h2 className="text-2xl font-bold whitespace-nowrap">
+                      Web Developer
+                    </h2>
                   </div>
                   <div class="team-content">
-                    <h3 class="title">Team 2</h3>
-                    <span class="post">Stellvertretender Geschäftsführer</span>
+                    <h3 class="title">Nyeem Bhai</h3>
+
+                    <span class="post">
+                      <p>Jubairbhai@gmail.com</p>
+                    </span>
                   </div>
                   <ul class="social">
                     <li>
@@ -168,11 +189,17 @@ const OurTeam = () => {
               <div>
                 <div class="our-team">
                   <div class="pic">
-                    <img src="https://i.ibb.co/8x9xK4H/team.jpg" />
+                    <img src={sohagvai} alt="..." />
+                    <h2 className="text-2xl font-bold whitespace-nowrap">
+                      Web Developer
+                    </h2>
                   </div>
                   <div class="team-content">
-                    <h3 class="title">Team 3</h3>
-                    <span class="post">Dipl. Physiotherapeut </span>
+                    <h3 class="title">Sohag bhai</h3>
+
+                    <span class="post">
+                      <p>Jubairbhai@gmail.com</p>
+                    </span>
                   </div>
                   <ul class="social">
                     <li>
@@ -194,11 +221,17 @@ const OurTeam = () => {
               <div>
                 <div class="our-team">
                   <div class="pic">
-                    <img src="https://i.ibb.co/8x9xK4H/team.jpg" />
+                    <img src={saifulvai} alt="..." />
+                    <h2 className="text-2xl font-bold whitespace-nowrap">
+                      Web Developer
+                    </h2>
                   </div>
                   <div class="team-content">
-                    <h3 class="title">Team 4</h3>
-                    <span class="post">Dipl. Physiotherapeut </span>
+                    <h3 class="title">Saifull Bhai</h3>
+
+                    <span class="post">
+                      <p>Jubairbhai@gmail.com</p>
+                    </span>
                   </div>
                   <ul class="social">
                     <li>

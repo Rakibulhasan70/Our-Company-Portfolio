@@ -5,9 +5,11 @@ import Avatar from '../../../Assets/avatar.png';
 import LocationIconRed from '../../../Assets/location-icon.png';
 import Quote from '../../../Assets/quote.png';
 import WebDesignIcon from '../../../Assets/web-design-icon.png'
-import CountUp from 'react-countup'
+
 import Footer from '../Shared/Footer';
 import Technologies from '../Technology/Technologies';
+import CounterPages from '../counter/CounterPages';
+
 
 
 
@@ -15,96 +17,10 @@ const Home = () => {
     return (
       <div>
         <Banner></Banner>
-        <div class="sec-title-style1 text-center max-width">
-          <div class="title ">Let's Build Something</div>
-          <div class="text">
-            <div class="decor-left">
-              <span></span>
-            </div>
-            <p>our services</p>
-            <div class="decor-right">
-              <span></span>
-            </div>
-          </div>
 
-          <div class="bottom-text">
-            <p>
-              End-to-end web solutions & bring ideas to life. And Advance your
-              development process with Thinky storm highly proficient
-              specialists
-            </p>
-          </div>
-        </div>
+        
 
-        <section className="bg-[#221F3C] py-16">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12">
-              <div className="bg-[#262051] hover:bg-[#F6FAFF] transition-all overflow-hidden h-80 relative border-[1px] border-slate-700 group">
-                <span className="text-[#332d5f] group-hover:text-[#ebe7ff] transition-all text-[100px] font-extrabold absolute -top-11 left-0">
-                  01
-                </span>
-                <div className="px-11 py-14 absolute">
-                  <h3 className="text-white group-hover:text-[#4338CA] transition-all text-xl font-bold">
-                    Product Design
-                  </h3>
-                  <p className="my-3 text-[#aeaacb] text-">
-                    Our product design service lets you prototype, test and
-                    validate your ideas.
-                  </p>
-                </div>
-                <div className="h-56 w-16 flex justify-center items-center bg-[#332d5f] transition-all group-hover:bg-[#ebe7ff] absolute -bottom-20 right-0 rotate-45">
-                  <img
-                    src={WebDesignIcon}
-                    alt=""
-                    className="absolute bottom-[95px] -rotate-90 h-12 w-12"
-                  />
-                </div>
-              </div>
-              <div className="bg-[#262051] hover:bg-[#F6FAFF] transition-all overflow-hidden h-80 relative border-[1px] border-slate-700 group">
-                <span className="text-[#332d5f] group-hover:text-[#ebe7ff] transition-all text-[100px] font-extrabold absolute -top-11 left-0">
-                  02
-                </span>
-                <div className="px-11 py-14 absolute">
-                  <h3 className="text-white group-hover:text-[#4338CA] transition-all text-xl font-bold">
-                    Development
-                  </h3>
-                  <p className="my-3 text-[#aeaacb] text-">
-                    Our product design service lets you prototype, test and
-                    validate your ideas.
-                  </p>
-                </div>
-                <div className="h-56 w-16 flex justify-center items-center bg-[#332d5f] transition-all group-hover:bg-[#ebe7ff] absolute -bottom-20 right-0 rotate-45">
-                  <img
-                    src={WebDesignIcon}
-                    alt=""
-                    className="absolute bottom-[95px] -rotate-90 h-12 w-12"
-                  />
-                </div>
-              </div>
-              <div className="bg-[#262051] hover:bg-[#F6FAFF] transition-all overflow-hidden h-80 relative border-[1px] border-slate-700 group">
-                <span className="text-[#332d5f] group-hover:text-[#ebe7ff] transition-all text-[100px] font-extrabold absolute -top-11 left-0">
-                  03
-                </span>
-                <div className="px-11 py-14 absolute">
-                  <h3 className="text-white group-hover:text-[#4338CA] transition-all text-xl font-bold">
-                    Product Design
-                  </h3>
-                  <p className="my-3 text-[#aeaacb] text-">
-                    Our product design service lets you prototype, test and
-                    validate your ideas.
-                  </p>
-                </div>
-                <div className="h-56 w-16 flex justify-center items-center bg-[#332d5f] transition-all group-hover:bg-[#ebe7ff] absolute -bottom-20 right-0 rotate-45">
-                  <img
-                    src={WebDesignIcon}
-                    alt=""
-                    className="absolute bottom-[95px] -rotate-90 h-12 w-12"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+       
         <div className="mt-10">
           <div class="sec-title-style1 text-center max-width ">
             <div class="title ">See What Our Clients Say’s</div>
@@ -121,7 +37,7 @@ const Home = () => {
         </div>
 
         <section className="max-w-7xl lg:mx-auto md:mx-auto px-5 py-12">
-          <div className="bg-[#221F3C] rounded-2xl py-12 px-12">
+          <div className="bg-[#d2cfef] rounded-2xl py-12 px-12">
             <div className="lg:flex md:flex grid grid-cols-1 gap-24">
               <div className="lg:w-2/5 md:w-2/5 w-full">
                 <p
@@ -275,128 +191,14 @@ const Home = () => {
           </div>
         </section>
 
-        <section className="bg-[#221F3C] py-20">
-          <div className="max-w-7xl lg:mx-auto md:mx-auto mx-5">
-            <div>
-              <p></p>
-            </div>
-            <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-2 lg:gap-12 md:gap-12 gap-5">
-              
-              <div className="bg-white rounded-lg lg:px-8 md:px-8 px-3 lg:py-7 md:py-7 py-4 border-b-8 border-b-[#4338CA] shadow-lg grid justify-items-center">
-                <div className="border-4 border-[#554bcd] h-28 w-28 flex justify-center items-center rounded-full">
-                  <div className="lg:text-3xl md:text-4xl text-3xl text-white font-bold flex items-center justify-center bg-[#554bcd] h-24 w-24 rounded-full">
-                    <CountUp start={0} end={500} duration={2.75} />
-                    <span>+</span>
-                  </div>
-                </div>
-                <p className="text-2xl text-center mt-2">Projects</p>
-              </div>
-              <div className="bg-white rounded-lg lg:px-8 md:px-8 px-3 lg:py-7 md:py-7 py-4 border-b-8 border-b-[#4338CA] shadow-lg grid justify-items-center">
-                <div className="border-4 border-[#554bcd] h-28 w-28 flex justify-center items-center rounded-full">
-                  <div className="lg:text-3xl md:text-4xl text-3xl text-white font-bold flex items-center justify-center bg-[#554bcd] h-24 w-24 rounded-full">
-                    <CountUp start={0} end={500} duration={2.75} />
-                    <span>+</span>
-                  </div>
-                </div>
-                <p className="text-2xl text-center mt-2">Projects</p>
-              </div>
-              <div className="bg-white rounded-lg lg:px-8 md:px-8 px-3 lg:py-7 md:py-7 py-4 border-b-8 border-b-[#4338CA] shadow-lg grid justify-items-center">
-                <div className="border-4 border-[#554bcd] h-28 w-28 flex justify-center items-center rounded-full">
-                  <div className="lg:text-3xl md:text-4xl text-3xl text-white font-bold flex items-center justify-center bg-[#554bcd] h-24 w-24 rounded-full">
-                    <CountUp start={0} end={500} duration={2.75} />
-                    <span>+</span>
-                  </div>
-                </div>
-                <p className="text-2xl text-center mt-2">Projects</p>
-              </div>
-              {/* <div className='bg-white rounded-lg lg:px-8 md:px-8 px-3 lg:py-7 md:py-7 py-4 border-b-8 border-b-[#4338CA] shadow-lg'>
-                            <div className='lg:text-5xl md:text-4xl text-3xl font-bold flex items-center justify-center'>
-                                <CountUp
-                                    start={0}
-                                    end={500}
-                                    duration={2.75}
-                                />
-                                <span>+</span>
-                            </div>
-                            <p className='text-2xl text-center mt-2'>Projects</p>
-                        </div>
-                        <div className='bg-white rounded-lg lg:px-8 md:px-8 px-3 lg:py-7 md:py-7 py-4 border-b-8 border-b-[#4338CA] shadow-lg'>
-                            <div className='lg:text-5xl md:text-4xl text-3xl font-bold flex items-center justify-center'>
-                                <CountUp
-                                    start={0}
-                                    end={500}
-                                    duration={2.75}
-                                />
-                                <span>+</span>
-                            </div>
-                            <p className='text-2xl text-center mt-2'>Projects</p>
-                        </div>
-                        <div className='bg-white rounded-lg lg:px-8 md:px-8 px-3 lg:py-7 md:py-7 py-4 border-b-8 border-b-[#4338CA] shadow-lg'>
-                            <div className='lg:text-5xl md:text-4xl text-3xl font-bold flex items-center justify-center'>
-                                <CountUp
-                                    start={0}
-                                    end={500}
-                                    duration={2.75}
-                                />
-                                <span>+</span>
-                            </div>
-                            <p className='text-2xl text-center mt-2'>Projects</p>
-                        </div> */}
-            </div>
-          </div>
-        </section>
+        <CounterPages />
 
-            <Technologies></Technologies>
+        <Technologies></Technologies>
 
-            <section className='bg-[#221F3C] py-16'>
-                <div className='max-w-7xl mx-auto'>
-                    <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8'>
-                        <div className='bg-[#262051] hover:bg-[#F6FAFF] transition-all overflow-hidden h-80 relative border-[1px] border-slate-700 group'>
-                            <span className='text-[#332d5f] group-hover:text-[#ebe7ff] transition-all text-[100px] font-extrabold absolute -top-11 left-0'>01</span>
-                            <div className='px-11 py-14 absolute'>
-                                <h3 className='text-white group-hover:text-[#4338CA] transition-all text-xl font-bold'>Product Design</h3>
-                                <p className='my-3 text-[#aeaacb] text-'>Our product design service lets you prototype, test and validate your ideas.</p>
-                            </div>
-                            <div className='h-56 w-16 flex justify-center items-center bg-[#332d5f] transition-all group-hover:bg-[#ebe7ff] absolute -bottom-20 right-0 rotate-45'>
-                                <img src={WebDesignIcon} alt="" className='absolute bottom-[95px] -rotate-90 h-12 w-12' />
-                            </div>
-                        </div>
-                        <div className='bg-[#262051] hover:bg-[#F6FAFF] transition-all overflow-hidden h-80 relative border-[1px] border-slate-700 group'>
-                            <span className='text-[#332d5f] group-hover:text-[#ebe7ff] transition-all text-[100px] font-extrabold absolute -top-11 left-0'>02</span>
-                            <div className='px-11 py-14 absolute'>
-                                <h3 className='text-white group-hover:text-[#4338CA] transition-all text-xl font-bold'>Development</h3>
-                                <p className='my-3 text-[#aeaacb] text-'>Our product design service lets you prototype, test and validate your ideas.</p>
-                            </div>
-                            <div className='h-56 w-16 flex justify-center items-center bg-[#332d5f] transition-all group-hover:bg-[#ebe7ff] absolute -bottom-20 right-0 rotate-45'>
-                                <img src={WebDesignIcon} alt="" className='absolute bottom-[95px] -rotate-90 h-12 w-12' />
-                            </div>
-                        </div>
-                        <div className='bg-[#262051] hover:bg-[#F6FAFF] transition-all overflow-hidden h-80 relative border-[1px] border-slate-700 group'>
-                            <span className='text-[#332d5f] group-hover:text-[#ebe7ff] transition-all text-[100px] font-extrabold absolute -top-11 left-0'>03</span>
-                            <div className='px-11 py-14 absolute'>
-                                <h3 className='text-white group-hover:text-[#4338CA] transition-all text-xl font-bold'>Product Design</h3>
-                                <p className='my-3 text-[#aeaacb] text-'>Our product design service lets you prototype, test and validate your ideas.</p>
-                            </div>
-                            <div className='h-56 w-16 flex justify-center items-center bg-[#332d5f] transition-all group-hover:bg-[#ebe7ff] absolute -bottom-20 right-0 rotate-45'>
-                                <img src={WebDesignIcon} alt="" className='absolute bottom-[95px] -rotate-90 h-12 w-12' />
-                            </div>
-                        </div>
-                        <div className='bg-[#262051] hover:bg-[#F6FAFF] transition-all overflow-hidden h-80 relative border-[1px] border-slate-700 group'>
-                            <span className='text-[#332d5f] group-hover:text-[#ebe7ff] transition-all text-[100px] font-extrabold absolute -top-11 left-0'>04</span>
-                            <div className='px-11 py-14 absolute'>
-                                <h3 className='text-white group-hover:text-[#4338CA] transition-all text-xl font-bold'>Product Design</h3>
-                                <p className='my-3 text-[#aeaacb] text-'>Our product design service lets you prototype, test and validate your ideas.</p>
-                            </div>
-                            <div className='h-56 w-16 flex justify-center items-center bg-[#332d5f] transition-all group-hover:bg-[#ebe7ff] absolute -bottom-20 right-0 rotate-45'>
-                                <img src={WebDesignIcon} alt="" className='absolute bottom-[95px] -rotate-90 h-12 w-12' />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        
 
-            <Footer></Footer>
-        </div >
+        <Footer></Footer>
+      </div>
     );
 };
 
