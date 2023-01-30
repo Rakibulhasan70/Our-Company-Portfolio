@@ -15,15 +15,33 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Technologies = () => {
 
-    const settings = {
-        dots: true,
+    var settings = {
+
         infinite: true,
         slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
         speed: 6000,
         autoplaySpeed: 1000,
-        cssEase: "linear"
+
+        cssEase: "linear",
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+
+                    infinite: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    speed: 5000,
+                    autoplaySpeed: 1000,
+                    cssEase: "linear",
+                }
+
+            }
+        ]
+
     };
 
 
@@ -35,9 +53,9 @@ const Technologies = () => {
                 </div>
 
 
-                <Slider {...settings} className="py-12">
+                <Slider {...settings} className="py-12 ">
                     <div class="flexs">
-                        <div class="containers">
+                        <div class="containers ">
                             <div class="hexa">
                                 <img className='pt-9 w-16 mx-auto' src={reactIcone} alt="" />
 
@@ -45,7 +63,7 @@ const Technologies = () => {
                         </div>
                     </div>
                     <div class="flexs ">
-                        <div class="containers">
+                        <div class="containers ">
                             <div class="hexa">
                                 <img className='pt-9 w-16 mx-auto' src={angularIcone} alt="" />
 
@@ -53,14 +71,14 @@ const Technologies = () => {
                         </div>
                     </div>
                     <div class="flexs ">
-                        <div class="containers">
+                        <div class="containers ">
                             <div class="hexa">
                                 <img className='pt-9 w-16 mx-auto' src={phpIcone} alt="" />
 
                             </div>
                         </div>
                     </div>
-                    <div class="flexs">
+                    <div class="flexs ">
                         <div class="containers">
                             <div class="hexa">
                                 <img className='pt-9 w-16 mx-auto' src={awsIcone} alt="" />
