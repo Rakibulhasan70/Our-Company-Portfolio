@@ -9,138 +9,116 @@ import nextIcone from '../../../Assets/next-removebg-preview.png'
 import nodeIcone from '../../../Assets/nodejs-removebg-preview.png'
 import mongodbIcone from '../../../Assets/mongodb-removebg-preview.png'
 
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const Technologies = () => {
+
+    var settings = {
+
+        infinite: true,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 6000,
+        autoplaySpeed: 1000,
+
+        cssEase: "linear",
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+
+                    infinite: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    speed: 5000,
+                    autoplaySpeed: 1000,
+                    cssEase: "linear",
+                }
+
+            }
+        ]
+
+    };
+
+
     return (
         <div>
-            <div>
+            <div >
                 <div className='text-2xl font-semibold text-center font-mono bg-[#eff4fa] w-[50%] lg:w-[20%] mx-auto py-2 mt-10'>
                     <h2 >Technologiess</h2>
                 </div>
 
 
-                <div class="sliders">
-                    <div class="slide-track ">
+                <Slider {...settings} className="py-12 ">
+                    <div class="flexs">
+                        <div class="containers ">
+                            <div class="hexa">
+                                <img className='pt-9 w-16 mx-auto' src={reactIcone} alt="" />
 
-                        {/* <div class="slide mx-5 shadow-xl rounded-md pl-10 py-10  hover:border-b-4 hover:border-b-[#2596be] ">
-                        <img className='w-20 hover:w-24' src={reactIcone} alt="" />
-                        <h2 className='text-xl font-serif mt-4 pl-2'>React</h2>
-                    </div> */}
-
-
-                        {/* /////// */}
-
-                        <div class="flexs px-10">
-                            <div class="containers">
-                                <div class="hexa">
-                                    <img className='pt-9 w-16 mx-auto' src={reactIcone} alt="" />
-
-                                </div>
                             </div>
                         </div>
-                        <div class="flexs pl-6 pr-10">
-                            <div class="containers">
-                                <div class="hexa">
-                                    <img className='pt-9 w-16 mx-auto' src={angularIcone} alt="" />
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flexs pl-4 pr-4 ">
-                            <div class="containers">
-                                <div class="hexa">
-                                    <img className='pt-9 w-16 mx-auto' src={phpIcone} alt="" />
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flexs px-10">
-                            <div class="containers">
-                                <div class="hexa">
-                                    <img className='pt-9 w-16 mx-auto' src={awsIcone} alt="" />
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flexs pl-4 pr-4">
-                            <div class="containers">
-                                <div class="hexa">
-                                    <img className='pt-9 w-16 mx-auto' src={vueIcone} alt="" />
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flexs px-10">
-                            <div class="containers">
-                                <div class="hexa">
-                                    <img className='pt-9 w-48   mx-auto' src={nodeIcone} alt="" />
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flexs pl-4 ">
-                            <div class="containers ">
-                                <div class="hexa">
-                                    <img className='pt-9 w-16 mx-auto' src={mongodbIcone} alt="" />
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flexs pl-14 ">
-                            <div class="containers ">
-                                <div class="hexa">
-                                    <img className='pt-9 w-16 mx-auto' src={nextIcone} alt="" />
-
-                                </div>
-                            </div>
-                        </div>
-
-
-                        {/* ///////////// */}
-
-                        {/* <div class="slide mx-5 shadow-xl rounded-md pl-10 py-10 ">
-                        <img className='w-16' src={reactIcone} alt="" />
-                        <h2 className='text-xl font-serif mt-4 pl-2'>React</h2>
                     </div>
-                    <div class="slide mx-5 shadow-xl rounded-md pl-10 py-10 ">
-                        <img className='w-16' src={reactIcone} alt="" />
-                        <h2 className='text-xl font-serif mt-4 pl-2'>React</h2>
-                    </div>
-                    <div class="slide mx-5 shadow-xl rounded-md pl-10 py-10 ">
-                        <img className='w-16' src={reactIcone} alt="" />
-                        <h2 className='text-xl font-serif mt-4 pl-2'>React</h2>
-                    </div>
-                    <div class="slide mx-5 shadow-xl rounded-md pl-10 py-10 ">
-                        <img className='w-16' src={reactIcone} alt="" />
-                        <h2 className='text-xl font-serif mt-4 pl-2'>React</h2>
-                    </div>
-                    <div class="slide mx-5 shadow-xl rounded-md pl-10 py-10 ">
-                        <img className='w-16' src={reactIcone} alt="" />
-                        <h2 className='text-xl font-serif mt-4 pl-2'>React</h2>
-                    </div>
-                    <div class="slide mx-5 shadow-xl rounded-md pl-10 py-10 ">
-                        <img className='w-16' src={reactIcone} alt="" />
-                        <h2 className='text-xl font-serif mt-4 pl-2'>React</h2>
-                    </div> */}
+                    <div class="flexs ">
+                        <div class="containers ">
+                            <div class="hexa">
+                                <img className='pt-9 w-16 mx-auto' src={angularIcone} alt="" />
 
-                        {/* <div class="slide mx-5">h</div>
-                    <div class="slide mx-5">cdgh</div>
-                    <div class="slide mx-5">dh</div>
-                    <div class="slide mx-5">ghj</div>
-                    <div class="slide mx-5">ert</div>
-                    <div class="slide mx-5">st</div> */}
-                        {/* <div class="slide mx-5">h</div>
-                    <div class="slide mx-5">h</div>
-                    <div class="slide mx-5">t </div>
-                    <div class="slide mx-5">j</div>
-                    <div class="slide mx-5">r</div>
-                    <div class="slide mx-5">as</div>
-                    <div class="slide mx-5">dfh</div>
-                    <div class="slide mx-5">ghk</div>
-                    <div class="slide mx-5">rtu</div>
-                    <div class="slide mx-5">k</div>
-                    <div class="slide mx-5">we</div> */}
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    <div class="flexs ">
+                        <div class="containers ">
+                            <div class="hexa">
+                                <img className='pt-9 w-16 mx-auto' src={phpIcone} alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flexs ">
+                        <div class="containers">
+                            <div class="hexa">
+                                <img className='pt-9 w-16 mx-auto' src={awsIcone} alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flexs ">
+                        <div class="containers">
+                            <div class="hexa">
+                                <img className='pt-9 w-16 mx-auto' src={vueIcone} alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flexs ">
+                        <div class="containers">
+                            <div class="hexa">
+                                <img className='pt-9 w-48   mx-auto' src={nodeIcone} alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flexs ">
+                        <div class="containers ">
+                            <div class="hexa">
+                                <img className='pt-9 w-16 mx-auto' src={mongodbIcone} alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flexs ">
+                        <div class="containers ">
+                            <div class="hexa">
+                                <img className='pt-9 w-16 mx-auto' src={nextIcone} alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                </Slider>
             </div>
         </div>
     );
