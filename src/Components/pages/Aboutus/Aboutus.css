@@ -42,17 +42,19 @@
 .faq-container:hover .content {
     color: var(--text-color);
 }
-.faq-shadow{
-border-radius: 11px;
+
+.faq-shadow {
+    border-radius: 11px;
     background: #8ed2a2;
     box-shadow: 10px 10px 0px #395441,
         -10px -10px 0px #ffff;
 }
-.question-bg{
+
+.question-bg {
     background: #395441;
 }
 
-.faq{
+.faq {
     font-family: 'Italianno', cursive;
 }
 
@@ -97,7 +99,7 @@ border-radius: 11px;
         font-size: 25px
     }
 
-    .icon {
+    .about-icon {
         margin-left: -50px;
     }
 

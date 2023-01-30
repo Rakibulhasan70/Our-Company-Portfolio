@@ -17,12 +17,13 @@
 
 .navbar-nav:hover::after {
     width: 100%;
-  transition: 0.3s;
+    transition: 0.3s;
 }
 
 .gradient {
     background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
+
 .title {
     display: flex;
     justify-content: center;
@@ -64,7 +65,7 @@
     }
 
     .icon {
-        margin-left: -50px;
+        /* margin-left: -50px; */
     }
 
     .customBg {
@@ -72,4 +73,3 @@
         margin-left: 0px;
     }
 }
-
