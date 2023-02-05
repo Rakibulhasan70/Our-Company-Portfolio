@@ -12,12 +12,26 @@ const Service = () => {
     <div>
       <section class="services">
     <div class="s-container">
-        <div class="services-title">
-            <div class="title">
-                <h2><span> Our </span> Services</h2>
+        <div class="sec-title-style1 text-center max-width">
+          <div class="title ">Let's Build Something</div>
+          <div class="text">
+            <div class="decor-left">
+              <span></span>
             </div>
-        </div>
+            <p>our services</p>
+            <div class="decor-right">
+              <span></span>
+            </div>
+          </div>
 
+          <div class="bottom-text">
+            <p>
+              End-to-end web solutions & bring ideas to life. And Advance your
+              development process with Thinky storm highly proficient
+              specialists
+            </p>
+          </div>
+        </div>
         <div class="services-box">
 
             <div class="box">
