@@ -2,21 +2,35 @@ import React from 'react';
 import './OurTeam.css'
 import niharImg from '../../Assets/Nihar vai.e1e6f62edad5abfb9a7a.png'
 import hridoyImg from '../../Assets/Hridoy vai2.fd4c865e5b168ce7edca.png'
+import shohagImg from '../../Assets/Hridoy vai2.fd4c865e5b168ce7edca.png'
+import jubaerImg from '../../Assets/Hridoy vai2.fd4c865e5b168ce7edca.png'
+import naeemImg from '../../Assets/Hridoy vai2.fd4c865e5b168ce7edca.png'
 
 const OurTeam = () => {
     return (
       <div>
-        <section class="our-team-section">
+        <div>
+          <h1 className="text-5xl font-bold flex justify-center items-center mt-10">
+            Meet Our Team
+          </h1>
+          <p className="text-xl flex justify-center items-center mt-6">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis,
+            nemo! Eos incidunt rem quam dicta?
+          </p>
+        </div>
+        <section class="our-team-section mt-6">
           <div class=" max-w-7xl lg:mx-auto md:mx-auto mx-5">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 ">
               <div className=''>
                 <div class="our-team">
                   <div class="pic">
-                    <img src={niharImg} />
+                    <img src={jubaerImg} alt="..." />
+                    <h2 className="text-2xl font-bold whitespace-nowrap">
+                      Team Leader
+                    </h2>
                   </div>
                   <div class="team-content">
-                    <h3 class="title">Monirul Islam Nihar</h3>
-                    <span class="post">MERN Stack Developer</span>
+                    <h3 class="title">Jubair bhai</h3>
                   </div>
                   <ul class="social">
                     <li>
@@ -140,11 +154,17 @@ const OurTeam = () => {
               <div>
               <div class="our-team">
                   <div class="pic">
-                    <img src={niharImg} />
+                    <img src={naeemImg} alt="..." />
+                    <h2 className="text-2xl font-bold whitespace-nowrap">
+                      Web Developer
+                    </h2>
                   </div>
                   <div class="team-content">
-                    <h3 class="title">Monirul Islam Nihar</h3>
-                    <span class="post">MERN Stack Developer</span>
+                    <h3 class="title">Nyeem Bhai</h3>
+
+                    <span class="post">
+                      <p>Jubairbhai@gmail.com</p>
+                    </span>
                   </div>
                   <ul class="social">
                     <li>
@@ -267,11 +287,17 @@ const OurTeam = () => {
               <div>
               <div class="our-team">
                   <div class="pic">
-                    <img src={niharImg} />
+                    <img src={shohagImg} alt="..." />
+                    <h2 className="text-2xl font-bold whitespace-nowrap">
+                      Web Developer
+                    </h2>
                   </div>
                   <div class="team-content">
-                    <h3 class="title">Monirul Islam Nihar</h3>
-                    <span class="post">MERN Stack Developer</span>
+                    <h3 class="title">Sohag bhai</h3>
+
+                    <span class="post">
+                      <p>Jubairbhai@gmail.com</p>
+                    </span>
                   </div>
                   <ul class="social">
                     <li>
@@ -395,11 +421,17 @@ const OurTeam = () => {
               <div>
               <div class="our-team">
                   <div class="pic">
-                    <img src={niharImg} />
+                    <img src={hridoyImg} alt="..." />
+                    <h2 className="text-2xl font-bold whitespace-nowrap">
+                      Web Developer
+                    </h2>
                   </div>
                   <div class="team-content">
-                    <h3 class="title">Monirul Islam Nihar</h3>
-                    <span class="post">MERN Stack Developer</span>
+                    <h3 class="title">Saifull Bhai</h3>
+
+                    <span class="post">
+                      <p>Jubairbhai@gmail.com</p>
+                    </span>
                   </div>
                   <ul class="social">
                     <li>

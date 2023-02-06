@@ -16,6 +16,7 @@ import NotFound from "./Components/pages/Shared/NotFound";
 // import Navbar from "./Components/pages/Shared/Navbar";
 import Header from "./Components/pages/Shared/Header";
 import OurTeam from "./Components/Ourteam/OurTeam";
+import Navbar2 from "./Components/pages/Shared/Navbar2";
 import ServicesDetails from "./Components/pages/ServicesDetails/ServicesDetails";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      {/* <Navbar2></Navbar2> */}
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
