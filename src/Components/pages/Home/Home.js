@@ -9,11 +9,13 @@ import WebDesignIcon from '../../../Assets/web-design-icon.png'
 import Footer from '../Shared/Footer';
 import Technologies from '../Technology/Technologies';
 import CounterPages from '../counter/CounterPages';
+import Test from './Test';
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
+      <Test></Test>
 
       {/* <div className="mt-10">
         <div class="sec-title-style1 text-center max-width ">

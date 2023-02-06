@@ -1,0 +1,32 @@
+.slick-prev:before,
+.slick-next:before {
+    font-size: 50px;
+    color: #121437;
+}
+
+.slick-prev,
+.slick-next {
+    top: -12%;
+}
+
+.slick-prev {
+    left: 85%;
+}
+
+.slick-next {
+    right: 2%;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .slick-prev {
+        left: 70%;
+    }
+
+    .slick-next {
+        right: 8%;
+    }
+}
