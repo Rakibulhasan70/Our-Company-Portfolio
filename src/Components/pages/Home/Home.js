@@ -7,6 +7,7 @@ import Quote from '../../../Assets/quote.png';
 import WebDesignIcon from '../../../Assets/web-design-icon.png'
 
 import Footer from '../Shared/Footer';
+import Service from '../Services/Service';
 import Technologies from '../Technology/Technologies';
 import CounterPages from '../counter/CounterPages';
 import LatestWork from '../Latest-Work/LatestWork';
@@ -15,7 +16,7 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
-
+      <Service></Service>
       {/* <div className="mt-10">
         <div class="sec-title-style1 text-center max-width ">
           <div class="title ">See What Our Clients Say's</div>
