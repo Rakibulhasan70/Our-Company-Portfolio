@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className="main">
       <div className="max-w-7xl lg:mx-auto md:mx-auto mx-5 lg:py-0 md:py-0 py-16">
-        <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-12 flex justify-center items-center">
+        <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-12  justify-center items-center">
           <div>
             <h1 className='lg:text-5xl md:text-4xl text-3xl text-white'>Company Name</h1>
             <TypeWriterEffect

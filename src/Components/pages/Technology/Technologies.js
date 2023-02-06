@@ -48,7 +48,7 @@ const Technologies = () => {
     return (
         <div>
             <div >
-                <div className='text-2xl font-semibold text-center font-mono bg-[#eff4fa] w-[50%] lg:w-[20%] mx-auto py-2 mt-10'>
+                <div className='text-2xl font-semibold text-center font-mono bg-[#eff4fa] w-[50%] lg:w-[20%] mx-auto py-2 mt-10 rounded-xl'>
                     <h2 >Technologiess</h2>
                 </div>
 

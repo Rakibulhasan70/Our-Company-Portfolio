@@ -9,6 +9,7 @@ import WebDesignIcon from '../../../Assets/web-design-icon.png'
 import Footer from '../Shared/Footer';
 import Technologies from '../Technology/Technologies';
 import CounterPages from '../counter/CounterPages';
+import LatestWork from '../Latest-Work/LatestWork';
 
 const Home = () => {
   return (
@@ -187,6 +188,7 @@ const Home = () => {
 
       <CounterPages />
       <Technologies />
+      <LatestWork></LatestWork>
       <Footer />
     </div>
   );
