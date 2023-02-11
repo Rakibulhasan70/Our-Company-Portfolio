@@ -1,22 +1,29 @@
 import React from 'react'
 import jsDev from '../../../Assets/services-img/mobile-development.png'
 import mobileDev from '../../../Assets/services-img/web-desktop-mobileapp.png'
-import serviceBanner from '../../../Assets/services-img/service-banner.jpg'
+import serviceBanner from '../../../Assets/services-img/service-img.jpg'
 import loveHelping from '../../../Assets/services-img/hand-holding-heart-svgrepo-com.svg'
 import light from '../../../Assets/services-img/light-bulb-14-svgrepo-com.svg'
 import { Link } from 'react-router-dom'
+import readyToTalk from '../../../Assets/ourt-team-img/ready-to-talk.webp'
+import './ServicesDetails.css'
 
 function ServicesDetails() {
   return (
     <div>
       <section>
-        <div className='flex justify-center items-center' style={{ "backgroundImage": `url(${serviceBanner})`, height: "300px" }}>
-          <div className=''>
-            <h2 className='text-3xl text-white font-bold'>Our Services</h2>
-            <Link className='text-white' to="/">Home</Link>
+      <section className='services-banner h-[80vh] flex items-center'>
+        <div className='py-[50px] md:py-0'>
+          <h1 className='text-4xl text-white font-bold text-center'>OUR TEAM</h1>
+          <p className='text-white text-2xl font-sans md:text-center py-9 px-5 lg:px-[80px] text-justify'>Successful teamwork starts with individuals. We collaborate to reach common goals and together
+            we achieve more to provide best solutions. Our teammates turn their work into a trustful
+            and respectful partnership permeating every aspect of our team activity.</p>
+          <div className='flex justify-center'>
+            <button className='bg-gradient-to-r from-[#3615e7] to-[#210c59] tracking-wider text-white px-9 py-4 text-xl font-bold rounded-full'>HIRE OUR TEAM</button>
           </div>
         </div>
-        <div className='bg-[#0084c8] grid grid-cols-1 lg:grid-cols-2 justify-center justify-items-center items-center lg:rounded-br-[180px] py-10 px-5 lg:px-14'>
+      </section>
+        <div className='bg-gradient-to-r from-[#3615e7] to-[#210c59] grid grid-cols-1 lg:grid-cols-2 justify-center justify-items-center items-center lg:rounded-br-[180px] py-10 px-5 lg:px-14'>
           <div className=''>
             <h1 className='text-3xl lg:text-4xl text-white font-bold border-l-4 pl-5 border-white'>Why We Are Different:</h1>
             <p className='text-white mt-5 text-xl font-sans text-justify'>Our core values define who we are as a company as well as the people who work here. They are what drive us to succeed and what we strive for every day.</p>
@@ -120,6 +127,18 @@ function ServicesDetails() {
             <li className='text-xl text-justify mb-3 font-serif'>It is completely possible to build strong web applications without JavaScript frameworks, but frameworks provide a template that handles common programming patterns. Each time you have to build an application, you don’t need to write code for every single feature from scratch. Instead, you can build upon an existing feature set.</li>
             <li className='text-xl text-justify mb-3 font-serif'>JavaScript frameworks, like most other frameworks, provide some rules and guidelines. Using these rules and guidelines, any developer can make complex applications faster and more efficiently than if they decided to build from scratch. The rules and guidelines help shape and organize your website or web application too!</li>
           </div>
+        </div>
+      </section>
+        <section className='my-8 mx-5 md:mx-9 bg-[#f6f7fa] mt-[50px] rounded-md'>
+        <div className='grid grid-cols-1 md:grid-cols-2 p-8'>
+        <div className='order-last lg:order-first'>
+          <h3 className='text-2xl md:text-4xl font-bold py-4'>Ready to talk about your next project with us? </h3>
+          <p className='py-4 text-xl'>Helping startups to Fortune 500 companies achieve their digital transformations since 2013.</p>
+          <button className='bg-gradient-to-r from-[#3615e7] to-[#210c59] py-3 px-6 rounded-md text-white'>CONTACT US</button>
+        </div>
+        <div className='order-first lg:order-last'>
+          <img className='rounded-md' src={readyToTalk}></img>
+        </div>
         </div>
       </section>
     </div>
