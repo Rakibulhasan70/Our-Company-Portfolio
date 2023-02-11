@@ -4,7 +4,8 @@
     justify-content: center;
     height: 40rem;
     background-color: #262051;
-    background-image: linear-gradient(170deg, #262051 0%, #262051 60%, white 60.1%);
+    background-image: linear-gradient(170deg, #3615e7 0%, #210c59 60%, white 60.1%);
+    /* background-color: #3664F4; */
 }
 
 

@@ -8,7 +8,7 @@ const Header = () => {
   const [flyerTwo, setFlyerTwo] = React.useState(false);
 
   let activeStyle = {
-    textDecoration: "bule",
+    textDecoration: "#3615e7",
   };
 
 
@@ -53,14 +53,14 @@ const Header = () => {
             </div>
             <nav className="hidden md:flex space-x-10">
               <NavLink
-                className=" navbar-nav text-base font-medium text-gray-500 hover:text-gray-900"
+                className=" navbar-nav text-base font-medium text-gray-500 hover:text-[#3615e7]"
                 to="/"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
               >
                 Home
               </NavLink>
               <NavLink
-                className="navbar-nav text-base font-medium text-gray-500 hover:text-gray-900"
+                className="navbar-nav text-base font-medium text-gray-500 hover:text-[#3615e7]"
                 to="/services"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
               >
@@ -137,7 +137,7 @@ const Header = () => {
                         <div className="ml-4">
                           <p className="text-base font-medium text-gray-900">
                             <NavLink
-                              className="navbar-nav text-base font-medium text-gray-500 hover:text-gray-900"
+                              className="navbar-nav text-base font-medium text-gray-500 hover:text-[#3615e7]"
                               to="/aboutUs"
                               style={({ isActive }) =>
                                 isActive ? activeStyle : undefined
