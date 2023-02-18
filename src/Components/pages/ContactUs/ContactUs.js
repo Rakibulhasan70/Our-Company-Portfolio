@@ -5,9 +5,11 @@ import contact_img from "../../../Assets/Business team work.png";
 import "react-phone-input-2/lib/style.css";
 import ReCAPTCHA from "react-google-recaptcha";
 import PhoneInput from "react-phone-input-2";
+import useTitle from "../../../hooks/useTitle";
 
 const ContactUs = () => {
   const [value, setValue] = useState();
+  useTitle("Contact Us")
   function onChange(value) {
     console.log("Captcha value:", value);
   }

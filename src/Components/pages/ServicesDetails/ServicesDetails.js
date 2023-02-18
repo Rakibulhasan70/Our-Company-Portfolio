@@ -9,8 +9,10 @@ import readyToTalk from '../../../Assets/ourt-team-img/ready-to-talk.webp'
 import './ServicesDetails.css'
 import { GiLovers, GiThink } from 'react-icons/gi';
 import { FaHandsHelping } from 'react-icons/fa';
+import useTitle from '../../../hooks/useTitle'
 
 function ServicesDetails() {
+  useTitle("Services")
   return (
     <div>
       <section>

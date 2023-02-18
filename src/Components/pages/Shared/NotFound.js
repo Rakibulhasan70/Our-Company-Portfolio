@@ -1,7 +1,9 @@
 import React from 'react';
+import useTitle from '../../../hooks/useTitle';
 import './NotFound.css';
 
 const NotFound = () => {
+    useTitle("Not Found")
     return (
         <div className='flex justify-center'>
             <div className="not-found-content">

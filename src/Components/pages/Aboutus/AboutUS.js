@@ -6,9 +6,11 @@ import worker from '../../../Assets/worker.png'
 import grouth from '../../../Assets/growth.png'
 import './Aboutus.css'
 import TQM from '../../../Assets/about-img/Total_Quality.jpg'
+import useTitle from '../../../hooks/useTitle';
 
 
 const AboutUS = () => {
+  useTitle("About Us")
   return (
     <div>
       <div>
