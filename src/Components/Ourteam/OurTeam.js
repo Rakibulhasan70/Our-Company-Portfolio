@@ -6,8 +6,10 @@ import sohagImg from '../../Assets/Sohag vai5.baed3fcb95f590704297.png'
 import naeemImg from '../../Assets/Naeem.8b219602dd0039e0bdf8.jpg'
 import colleagues from '../../Assets/ourt-team-img/we-are-family.webp'
 import readyToTalk from '../../Assets/ourt-team-img/ready-to-talk.webp'
+import useTitle from '../../hooks/useTitle';
 
 const OurTeam = () => {
+  useTitle('Our Team')
   return (
     <div>
       <section className='our-team-bg md:h-[80vh] flex items-center'>
