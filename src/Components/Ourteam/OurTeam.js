@@ -17,7 +17,7 @@ const OurTeam = () => {
             we achieve more to provide best solutions. Our teammates turn their work into a trustful
             and respectful partnership permeating every aspect of our team activity.</p>
           <div className='flex justify-center'>
-            <button className='bg-gradient-to-r from-[#3615e7] to-[#210c59] tracking-wider text-white px-9 py-4 text-xl font-bold rounded-full'>HIRE OUR TEAM</button>
+            <button className='bg-[#43BAFF] hover:bg-[#7141B1] transition-all shadow-2xl tracking-wider text-white px-9 py-4 text-xl font-bold rounded-full'>HIRE OUR TEAM</button>
           </div>
         </div>
       </section>
@@ -574,16 +574,16 @@ const OurTeam = () => {
           </div>
         </div>
       </section>
-      <section className='my-8 mx-5 md:mx-9 bg-[#f6f7fa] mt-[50px]'>
+      <section className='my-8 mx-5 md:mx-9 bg-[#322B5D] mt-[50px] rounded-md'>
         <div className='grid grid-cols-1 md:grid-cols-2 p-8'>
-        <div className='order-last lg:order-first'>
-          <h3 className='text-2xl md:text-4xl font-bold py-4'>Ready to talk about your next project with us? </h3>
-          <p className='py-4 text-xl'>Helping startups to Fortune 500 companies achieve their digital transformations since 2013.</p>
-          <button className='bg-gradient-to-r from-[#3615e7] to-[#210c59] py-3 px-6 rounded-md text-white'>CONTACT US</button>
-        </div>
-        <div className='order-first lg:order-last'>
-          <img src={readyToTalk}></img>
-        </div>
+          <div className='order-last lg:order-first'>
+            <h3 className='text-2xl md:text-4xl font-bold py-4 text-white'>Ready to talk about your next project with us? </h3>
+            <p className='py-4 text-xl text-white'>Helping startups to Fortune 500 companies achieve their digital transformations since 2013.</p>
+            <button className='bg-[#43BAFF] hover:bg-[#7141B1] transition-all py-3 px-6 rounded-md text-white'>CONTACT US</button>
+          </div>
+          <div className='order-first lg:order-last'>
+            <img className='rounded-md' src={readyToTalk}></img>
+          </div>
         </div>
       </section>
     </div>
