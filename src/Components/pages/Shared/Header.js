@@ -8,13 +8,13 @@ const Header = () => {
   const [flyerTwo, setFlyerTwo] = React.useState(false);
 
   let activeStyle = {
-    textDecoration: "#3615e7",
+    textDecoration: "#43BAFF",
   };
 
 
   return (
     <>
-      <div className="relative bg-white">
+      <div className="relative bg-white sticky top-0 z-30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -74,7 +74,7 @@ const Header = () => {
                 Protfolio
               </NavLink>
               <NavLink
-                className="navbar-nav text-base font-medium text-gray-500 hover:text-gray-900"
+                className="navbar-nav text-base font-medium text-gray-500 hover:text-[#43BAFF]"
                 to="/contactUs"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
               >
@@ -218,7 +218,7 @@ const Header = () => {
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
               <a
                 href="https://calendly.com/niharmonirulislam/project-idea"
-                className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-[#43BAFF] hover:bg-[#7141B1] transition-all"
               >
                 Talk to Expert
               </a>
@@ -376,7 +376,7 @@ const Header = () => {
                     </svg>
                     <span className="ml-3 text-base font-medium text-gray-900">
                       <NavLink
-                        className="navbar-nav text-base font-medium text-gray-500 hover:text-gray-900"
+                        className="navbar-nav text-base font-medium text-gray-500 hover:text-[#43BAFF]"
                         to="/contactUs"
                         style={({ isActive }) =>
                           isActive ? activeStyle : undefined
