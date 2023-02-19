@@ -22,8 +22,8 @@ const Test = () => {
                     <div></div>
                     <div className="">
                         <Slider {...settings} className='rounded-2xl'>
-                            <div className="bg-red-200 h-96 !flex justify-center items-center rounded-2xl">
-                                <div className="w-full p-10 grid grid-cols-1">
+                            <div className="bg-red-200 h-72 !flex justify-center items-center rounded-2xl">
+                                <div className="w-full p-10 grid grid-cols-1 gap-5">
                                     <div className="flex items-center justify-between">
                                         <div className="flex items-center gap-4">
                                             <div>
@@ -60,10 +60,10 @@ const Test = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="bg-red-200 h-96 !flex justify-center items-center">
+                            <div className="bg-red-200 h-72 !flex justify-center items-center">
                                 <p className="text-base text-center w-3/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis distinctio commodi, debitis dolore voluptatibus necessitatibus excepturi illo ab quos, facilis magnam rerum impedit culpa. Quam impedit nisi minus recusandae ipsa.</p>
                             </div>
-                            <div className="bg-red-200 h-96 !flex justify-center items-center">
+                            <div className="bg-red-200 h-72 !flex justify-center items-center">
                                 <p className="text-base text-center w-3/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis distinctio commodi, debitis dolore voluptatibus necessitatibus excepturi illo ab quos, facilis magnam rerum impedit culpa. Quam impedit nisi minus recusandae ipsa.</p>
                             </div>
                         </Slider>

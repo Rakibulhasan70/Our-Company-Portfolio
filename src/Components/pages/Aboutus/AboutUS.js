@@ -5,6 +5,7 @@ import activites from '../../../Assets/activity.png'
 import worker from '../../../Assets/worker.png'
 import grouth from '../../../Assets/growth.png'
 import './Aboutus.css'
+import TQM from '../../../Assets/about-img/Total_Quality.jpg'
 
 
 const AboutUS = () => {
@@ -42,7 +43,7 @@ const AboutUS = () => {
                   </div>
                 </div>
                 <a className='text-white' href="https://calendly.com/niharmonirulislam/project-idea?month=2023-01">
-                  {" "}
+
                   Start a project with us
                 </a>
               </button>
@@ -60,36 +61,36 @@ const AboutUS = () => {
             <div class=" flex items-center justify-center ">
               <div
                 class="rounded-lg shadow-xl bg-gray-900 text-white"
-                style={{ width: "370px", height: "250px" }}
+                style={{ width: "370px", height: "270px" }}
               >
                 <div class="border-b border-gray-800 px-8 py-3">
                   <div class="inline-block w-3 h-3 mr-2 rounded-full bg-red-500"></div>
                   <div class="inline-block w-3 h-3 mr-2 rounded-full bg-yellow-300"></div>
                   <div class="inline-block w-3 h-3 mr-2 rounded-full bg-green-400"></div>
                 </div>
-                <div class="px-8 py-6">
+                <div class="px-8 pb-6">
                   <p>
-                    <em class="text-blue-400">const</em>{" "}
-                    <span class="text-green-400">aboutUs</span>{" "}
-                    <span class="text-pink-500">=</span>{" "}
-                    <em class="text-blue-400">function</em>(){" "}
+                    <em class="text-blue-400">const </em>
+                    <span class="text-green-400">aboutUs</span>
+                    <span class="text-pink-500">=</span>
+                    <em class="text-blue-400">function</em>()&#123;
                   </p>
                   <p>
-                    &nbsp;&nbsp;<span class="text-pink-500">return</span>{" "}
+                    &nbsp;&nbsp;<span class="text-pink-500">return</span>
                   </p>
                   <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;name:{" "}
+                    &nbsp;&nbsp;&nbsp;&nbsp;name:
                     <span class="text-yellow-300">'Company Name'</span>,
                   </p>
                   <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;Services:{" "}
+                    &nbsp;&nbsp;&nbsp;&nbsp;Services:
                     <span class="text-yellow-300">
                       'fullstack-web-development'
                     </span>
                     ,
                   </p>
                   <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;website:{" "}
+                    &nbsp;&nbsp;&nbsp;&nbsp;website:
                     <span class="text-yellow-300">
                       '
                       <a
@@ -101,10 +102,9 @@ const AboutUS = () => {
                       </a>
                       '
                     </span>
-                    ,
                   </p>
+                  &#125;
                   <p>&nbsp;&nbsp;</p>
-                  <p></p>
                 </div>
               </div>
             </div>
@@ -136,12 +136,12 @@ const AboutUS = () => {
         </section>
       </div>
       <div className=" text-center flex justify-center items-center">
-        <img
+        {/* <img
           src="https://smooth-angular.hateng.net/chart.6f8a827fbc052ef5.svg"
           alt=""
           srcset=""
           className="w-20 h-20 rounded-lg mr-5"
-        />
+        /> */}
         <div className="title">
           <span>We Inspire You to Come Up with Your Best</span>
         </div>
@@ -155,8 +155,8 @@ const AboutUS = () => {
               <img className="w-16 h-16 rounded" src={hour} alt="" />
               {/* <IoArrowRedoSharp className="w-12 h-12 text-cyan-500" /> */}
               <h1 className="text-xl ml-6">
-                {" "}
-                We’re a work-oriented and result-driven IT company. Though
+
+                We're a work-oriented and result-driven IT company. Though
                 work is our priority, we provide flexible working hours to
                 help you reduce stress
               </h1>
@@ -169,8 +169,8 @@ const AboutUS = () => {
               <img className="w-16 h-16 rounded" src={activites} alt="" />
               {/* <IoArrowRedoSharp className="w-12 h-12 text-cyan-500" /> */}
               <h1 className="text-xl ml-6">
-                {" "}
-                We’re a work-oriented and result-driven IT company. Though
+
+                We're a work-oriented and result-driven IT company. Though
                 work is our priority, we provide flexible working hours to
                 help you reduce stress
               </h1>
@@ -182,7 +182,7 @@ const AboutUS = () => {
               <img className="w-16 h-16 rounded" src={grouth} alt="" />
               {/* <IoArrowRedoSharp className="w-12 h-12 text-cyan-500" /> */}
               <h1 className="text-xl ml-6">
-                {" "}
+
                 We’re a work-oriented and result-driven IT company. Though
                 work is our priority, we provide flexible working hours to
                 help you reduce stress
@@ -195,7 +195,7 @@ const AboutUS = () => {
               {/* <IoArrowRedoSharp className="w-12 h-12 text-cyan-500" /> */}
               <img className="w-16 h-16 rounded" src={worker} alt="" />
               <h1 className="text-xl ml-6">
-                {" "}
+
                 We’re a work-oriented and result-driven IT company. Though
                 work is our priority, we provide flexible working hours to
                 help you reduce stress
@@ -203,16 +203,13 @@ const AboutUS = () => {
             </div>
           </div>
         </div>
-      </div>
 
+      </div>
       <section class="relative z-20 overflow-hidden bg-white ">
         <div class="container mx-auto">
           <div class="-mx-4 flex flex-wrap">
             <div class="w-full px-4">
               <div class="mx-auto max-w-[520px] text-center lg:mb-10">
-                <span class=" block font-semibold  text-xl text-primary">
-                  FAQ
-                </span>
 
                 <div className="faq-title text-6xl">
                   <span className="faq font-bold ">
@@ -228,8 +225,8 @@ const AboutUS = () => {
               </div>
             </div>
           </div>
-          <div class="-mx-4 flex flex-wrap">
-            <div class="w-full px-4 lg:w-1/2">
+          <div>
+            {/* <div class="w-full px-4 lg:w-1/2">
               <div class="faq-shadow faq-container single-faq mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
                 <button class="faq-btn flex w-full text-left">
                   <div class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
@@ -429,6 +426,95 @@ const AboutUS = () => {
                     content marketing strategy that we do before writing your
                     first blog post, Ipsum available.
                   </p>
+                </div>
+              </div>
+            </div> */}
+            <div className='grid grid-cols-1 md:grid-cols-2 mb-7'>
+              <div className='mx-5'>
+                <h2 className='text-3xl md:text-4xl font-bold text-blue-500 my-5'>Why You Choose us ?</h2>
+                <p className='text-justify leading-7 text-xl font-sans'> <span className='font-bold'>Softonixt</span> works in several IT sectors with skilled expert workforce. We possess the experience and expertise to help web entrepreneurs reach their customers across the digital space. We believe that hard work and honesty can do many effective things and with a great team members we have started working on it and prepared a perfect workforce for you.
+                  Our young and experienced professionals are here to provide utmost return on your investment in shortest possible time with their talent and proficiency. You are welcome.</p>
+              </div>
+              <div class="md:ml-9 mx-5">
+                <div class="grid divide-y divide-neutral-200 max-w-xl">
+                  <div class="py-5">
+                    <details class="group">
+                      <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                        <span> Can I try this platform for free?</span>
+                        <span class="transition group-open:rotate-180">
+                          <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                          </svg>
+                        </span>
+                      </summary>
+                      <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                        We offers a free trial of its  platform for a limited time. During the trial period,
+                        you will have access to a limited set of features and functionality, but you will not be charged.
+                      </p>
+                    </details>
+                  </div>
+                  <div class="py-5">
+                    <details class="group">
+                      <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                        <span> How do I access   documentation?</span>
+                        <span class="transition group-open:rotate-180">
+                          <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                          </svg>
+                        </span>
+                      </summary>
+                      <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                        Documentation is available on the company's website and can be accessed by
+                        logging in to your account. The documentation provides detailed information on how to use the ,
+                        as well as code examples and other resources.
+                      </p>
+                    </details>
+                  </div>
+                  <div class="py-5">
+                    <details class="group">
+                      <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                        <span> How do I contact support?</span>
+                        <span class="transition group-open:rotate-180">
+                          <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                          </svg>
+                        </span>
+                      </summary>
+                      <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                        If you need help with the platform or have any other questions, you can contact the
+                        company's support team by submitting a support request through the website or by emailing
+                        support@We.com.
+                      </p>
+                    </details>
+                  </div>
+                  <div class="py-5">
+                    <details class="group">
+                      <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                        <span> Do you offer any discounts or promotions?</span>
+                        <span class="transition group-open:rotate-180">
+                          <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                          </svg>
+                        </span>
+                      </summary>
+                      <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                        We may offer discounts or promotions from time to time. To stay up-to-date on the latest
+                        deals and special offers, you can sign up for the company's newsletter or follow it on social media.
+                      </p>
+                    </details>
+                  </div>
+                  <div class="py-5">
+                    <details class="group">
+                      <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                        <span> How do we compare to other similarssss services?</span>
+                        <span class="transition group-open:rotate-180">
+                          <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                          </svg>
+                        </span>
+                      </summary>
+                      <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                        This platform is a highly reliable and feature-rich service that offers a wide range
+                        of tools and functionality. It is competitively priced and offers a variety of billing options to
+                        suit different needs and budgets.
+                      </p>
+                    </details>
+                  </div>
                 </div>
               </div>
             </div>
