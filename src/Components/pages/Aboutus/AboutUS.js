@@ -235,7 +235,7 @@ const AboutUS = () => {
                       width="17"
                       height="10"
                       viewBox="0 0 17 10"
-                      class="about-icon fill-current content"
+                      class="about-icon fill-current about-content"
                     >
                       <path
                         d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
@@ -245,18 +245,18 @@ const AboutUS = () => {
                     </svg>
                   </div>
                   <div class="w-full">
-                    <h4 class="text-lg font-bold  content">
+                    <h4 class="text-lg font-bold  about-content">
                       How long we deliver your first blog post?
                     </h4>
                   </div>
                 </button>
-                <div x-show="openFaq1" class="faq-content pl-[62px]">
+                <div x-show="openFaq1" class="faq-about-content pl-[62px]">
                   <div class="">
-                    <div class="content">
+                    <div class="about-content">
                       <p>
                         It takes 2-3 weeks to get your first blog post ready.
                         That includes the in-depth research & creation of your
-                        monthly content marketing strategy that we do before
+                        monthly about-content marketing strategy that we do before
                         writing your first blog post, Ipsum available.
                       </p>
                     </div>
@@ -271,7 +271,7 @@ const AboutUS = () => {
                       width="17"
                       height="10"
                       viewBox="0 0 17 10"
-                      class="about-icon fill-current content"
+                      class="about-icon fill-current about-content"
                     >
                       <path
                         d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
@@ -281,18 +281,18 @@ const AboutUS = () => {
                     </svg>
                   </div>
                   <div class="w-full">
-                    <h4 class="text-lg font-bold  content">
+                    <h4 class="text-lg font-bold  about-content">
                       How long we deliver your first blog post?
                     </h4>
                   </div>
                 </button>
-                <div x-show="openFaq1" class="faq-content pl-[62px]">
+                <div x-show="openFaq1" class="faq-about-content pl-[62px]">
                   <div class="">
-                    <div class="content">
+                    <div class="about-content">
                       <p>
                         It takes 2-3 weeks to get your first blog post ready.
                         That includes the in-depth research & creation of your
-                        monthly content marketing strategy that we do before
+                        monthly about-content marketing strategy that we do before
                         writing your first blog post, Ipsum available.
                       </p>
                     </div>
@@ -306,7 +306,7 @@ const AboutUS = () => {
                       width="17"
                       height="10"
                       viewBox="0 0 17 10"
-                      class="about-icon fill-current content"
+                      class="about-icon fill-current about-content"
                     >
                       <path
                         d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
@@ -316,16 +316,16 @@ const AboutUS = () => {
                     </svg>
                   </div>
                   <div class="w-full">
-                    <h4 class="text-lg font-semibold text-black content">
+                    <h4 class="text-lg font-semibold text-black about-content">
                       How long we deliver your first blog post?
                     </h4>
                   </div>
                 </button>
-                <div x-show="openFaq3" class="faq-content pl-[62px]">
-                  <p className="content">
+                <div x-show="openFaq3" class="faq-about-content pl-[62px]">
+                  <p className="about-content">
                     It takes 2-3 weeks to get your first blog post ready. That
                     includes the in-depth research & creation of your monthly
-                    content marketing strategy that we do before writing your
+                    about-content marketing strategy that we do before writing your
                     first blog post, Ipsum available.
                   </p>
                 </div>
@@ -339,7 +339,7 @@ const AboutUS = () => {
                       width="17"
                       height="10"
                       viewBox="0 0 17 10"
-                      class="about-icon fill-current content"
+                      class="about-icon fill-current about-content"
                     >
                       <path
                         d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
@@ -349,18 +349,18 @@ const AboutUS = () => {
                     </svg>
                   </div>
                   <div class="w-full">
-                    <h4 class="text-lg font-bold  content">
+                    <h4 class="text-lg font-bold  about-content">
                       How long we deliver your first blog post?
                     </h4>
                   </div>
                 </button>
-                <div x-show="openFaq1" class="faq-content pl-[62px]">
+                <div x-show="openFaq1" class="faq-about-content pl-[62px]">
                   <div class="">
-                    <div class="content">
-                      <p className="content">
+                    <div class="about-content">
+                      <p className="about-content">
                         It takes 2-3 weeks to get your first blog post ready.
                         That includes the in-depth research & creation of your
-                        monthly content marketing strategy that we do before
+                        monthly about-content marketing strategy that we do before
                         writing your first blog post, Ipsum available.
                       </p>
                     </div>
@@ -374,7 +374,7 @@ const AboutUS = () => {
                       width="17"
                       height="10"
                       viewBox="0 0 17 10"
-                      class="about-icon fill-current content"
+                      class="about-icon fill-current about-content"
                     >
                       <path
                         d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
@@ -384,16 +384,16 @@ const AboutUS = () => {
                     </svg>
                   </div>
                   <div class="w-full">
-                    <h4 class="text-lg font-semibold text-black content ">
+                    <h4 class="text-lg font-semibold text-black about-content ">
                       How long we deliver your first blog post?
                     </h4>
                   </div>
                 </button>
-                <div x-show="openFaq5" class="faq-content pl-[62px]">
-                  <p class="content">
+                <div x-show="openFaq5" class="faq-about-content pl-[62px]">
+                  <p class="about-content">
                     It takes 2-3 weeks to get your first blog post ready. That
                     includes the in-depth research & creation of your monthly
-                    content marketing strategy that we do before writing your
+                    about-content marketing strategy that we do before writing your
                     first blog post, Ipsum available.
                   </p>
                 </div>
@@ -405,7 +405,7 @@ const AboutUS = () => {
                       width="17"
                       height="10"
                       viewBox="0 0 17 10"
-                      class="about-icon fill-current content"
+                      class="about-icon fill-current about-content"
                     >
                       <path
                         d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
@@ -415,16 +415,16 @@ const AboutUS = () => {
                     </svg>
                   </div>
                   <div class="w-full">
-                    <h4 class="text-lg font-semibold text-black content">
+                    <h4 class="text-lg font-semibold text-black about-content">
                       How long we deliver your first blog post?
                     </h4>
                   </div>
                 </button>
-                <div x-show="openFaq6" class="faq-content pl-[62px]">
-                  <p className="content">
+                <div x-show="openFaq6" class="faq-about-content pl-[62px]">
+                  <p className="about-content">
                     It takes 2-3 weeks to get your first blog post ready. That
                     includes the in-depth research & creation of your monthly
-                    content marketing strategy that we do before writing your
+                    about-content marketing strategy that we do before writing your
                     first blog post, Ipsum available.
                   </p>
                 </div>
@@ -434,7 +434,7 @@ const AboutUS = () => {
               <div className='mx-5'>
                 <h2 className='text-3xl md:text-4xl font-bold text-blue-500 my-5'>Why You Choose us ?</h2>
                 <p className='text-justify leading-7 text-xl font-sans'> <span className='font-bold'>Softonixt</span> works in several IT sectors with skilled expert workforce. We possess the experience and expertise to help web entrepreneurs reach their customers across the digital space. We believe that hard work and honesty can do many effective things and with a great team members we have started working on it and prepared a perfect workforce for you.
-                Our young and experienced professionals are here to provide utmost return on your investment in shortest possible time with their talent and proficiency. You are welcome.</p>
+                  Our young and experienced professionals are here to provide utmost return on your investment in shortest possible time with their talent and proficiency. You are welcome.</p>
               </div>
               <div class="md:ml-9 mx-5">
                 <div class="grid divide-y divide-neutral-200 max-w-xl">

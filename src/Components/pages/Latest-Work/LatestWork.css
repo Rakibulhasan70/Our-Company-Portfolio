@@ -1,17 +1,17 @@
-.container {
+.containers {
     /* padding: 1em 0; */
     float: left;
     width: 50%;
 }
 
 @media screen and (max-width: 640px) {
-    .container {
+    .containers {
         display: block;
         /* width: 100%; */
     }
 }
 
-.container .title {
+.containers .title {
     color: #1a1a1a;
     text-align: center;
     margin-bottom: 10px;
@@ -86,4 +86,21 @@
 
 .fadeIn-bottom {
     top: 80%;
+}
+
+.seeMore {
+    font-size: 17px;
+    color: white;
+    background-color: #212529;
+    width: 13%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 7px;
+
+}
+
+@media screen and (max-width: 640px) {
+    .seeMore {
+        width: 33%;
+    }
 }

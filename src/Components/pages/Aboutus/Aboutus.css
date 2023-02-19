@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 
-:root {
-    --primary-color: #8ed2a2;
-    --bg-color: #dfe6e9;
-    --text-color: white;
-}
 
 .faq-container {
     background: white;
@@ -29,7 +24,7 @@
     transition: all .3s ease-in;
 }
 
-.content {
+.about-content {
     position: relative;
     z-index: 1;
     transition: all .3s ease-in;
@@ -39,7 +34,7 @@
     clip-path: circle(100%);
 }
 
-.faq-container:hover .content {
+.faq-container:hover .about-content {
     color: var(--text-color);
 }
 

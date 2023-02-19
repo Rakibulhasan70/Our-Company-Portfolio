@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import './LatestWork.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from 'react-router-dom';
 
 const LatestWork = () => {
     var settings = {
@@ -36,8 +37,8 @@ const LatestWork = () => {
             </div>
 
             <Slider {...settings}>
-                <div class="container">
-                    <h3 class="title">Number 1</h3>
+                <div class="containers">
+
                     <div class="content">
                         <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                             <div class="content-overlay"></div>
@@ -49,8 +50,8 @@ const LatestWork = () => {
                         </a>
                     </div>
                 </div>
-                <div class="container">
-                    <h3 class="title">Number 2</h3>
+                <div class="containers">
+
                     <div class="content">
                         <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                             <div class="content-overlay"></div>
@@ -61,8 +62,8 @@ const LatestWork = () => {
                             </div>
                         </a>
                     </div>
-                </div>  <div class="container">
-                    <h3 class="title">Number 3</h3>
+                </div>  <div class="containers">
+
                     <div class="content">
                         <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                             <div class="content-overlay"></div>
@@ -73,8 +74,8 @@ const LatestWork = () => {
                             </div>
                         </a>
                     </div>
-                </div>  <div class="container">
-                    <h3 class="title">Number 4</h3>
+                </div>  <div class="containers">
+
                     <div class="content">
                         <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                             <div class="content-overlay"></div>
@@ -85,8 +86,8 @@ const LatestWork = () => {
                             </div>
                         </a>
                     </div>
-                </div>  <div class="container">
-                    <h3 class="title">Number 5</h3>
+                </div>  <div class="containers">
+
                     <div class="content">
                         <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                             <div class="content-overlay"></div>
@@ -97,8 +98,8 @@ const LatestWork = () => {
                             </div>
                         </a>
                     </div>
-                </div>  <div class="container">
-                    <h3 class="title">Number 6</h3>
+                </div>  <div class="containers">
+
                     <div class="content">
                         <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                             <div class="content-overlay"></div>
@@ -111,6 +112,10 @@ const LatestWork = () => {
                     </div>
                 </div>
             </Slider>
+
+            <div className=' text-center mt-16 '>
+                <Link to='/portfolio'>  <button className='seeMore'>See More</button></Link>
+            </div>
         </div>
     );
 };

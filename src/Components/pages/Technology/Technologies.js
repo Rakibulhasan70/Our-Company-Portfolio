@@ -16,7 +16,6 @@ import "slick-carousel/slick/slick-theme.css";
 const Technologies = () => {
 
     var settings = {
-
         infinite: true,
         slidesToShow: 6,
         slidesToScroll: 1,

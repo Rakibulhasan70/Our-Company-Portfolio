@@ -68,7 +68,7 @@ const Header = () => {
               </NavLink>
               <NavLink
                 className="navbar-nav text-base font-medium text-gray-500 hover:text-gray-900"
-                to="/aboutUs"
+                to="/portfolio"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
               >
                 Protfolio
@@ -149,7 +149,7 @@ const Header = () => {
                         </div>
                       </p>
                       <p className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                   
+
                         <svg
                           className="flex-shrink-0 h-6 w-6 text-indigo-600"
                           xmlns="http://www.w3.org/2000/svg"
@@ -180,7 +180,7 @@ const Header = () => {
                         </div>
                       </p>
                       <p className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                        
+
                         <svg
                           className="flex-shrink-0 h-6 w-6 text-indigo-600"
                           xmlns="http://www.w3.org/2000/svg"
@@ -348,7 +348,7 @@ const Header = () => {
                     <span className="ml-3 text-base font-medium text-gray-900">
                       <NavLink
                         className="navbar-nav text-base font-medium text-gray-500 hover:text-gray-900"
-                        to="/aboutUs"
+                        to="/portfolio"
                         style={({ isActive }) =>
                           isActive ? activeStyle : undefined
                         }
