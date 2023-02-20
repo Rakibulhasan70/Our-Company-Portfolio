@@ -1,140 +1,105 @@
-.not-found-content {
-    margin-top: 17.22vh;
+
+
+
+.notfoundBody{
+    background-color: #2F3242;
 }
 
-@media (max-width: 320px) {
-    .not-found-content {
-        margin-top: 64px;
+.notfound-svg {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -400px;
+   
+}
+
+.message-box {
+    height: 200px;
+    width: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: 50px;
+    color: #FFF;
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+.message-box h1 {
+    font-size: 60px;
+    line-height: 46px;
+    margin-bottom: 40px;
+}
+
+.buttons-con .action-link-wrap {
+    margin-top: 40px;
+}
+
+.buttons-con .action-link-wrap a {
+    background: #68c950;
+    padding: 8px 25px;
+    border-radius: 4px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px
+}
+
+.buttons-con .action-link-wrap a:hover {
+    background: #5A5C6C;
+    color: #fff;
+}
+
+#Polygon-1,
+#Polygon-2,
+#Polygon-3,
+#Polygon-4,
+#Polygon-4,
+#Polygon-5 {
+    animation: float 1s infinite ease-in-out alternate;
+}
+
+#Polygon-2 {
+    animation-delay: .2s;
+}
+
+#Polygon-3 {
+    animation-delay: .4s;
+}
+
+#Polygon-4 {
+    animation-delay: .6s;
+}
+
+#Polygon-5 {
+    animation-delay: .8s;
+}
+
+@keyframes float {
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+@media (max-width: 450px) {
+    svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -250px;
+        margin-left: -190px;
+    }
+
+    .message-box {
+        top: 50%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -190px;
         text-align: center;
     }
-}
-
-.image-404 {
-    width: 318px;
-    margin-left: -20px;
-    margin: auto;
-}
-
-@media (max-width: 320px) {
-    .not-found-content>.image-404 {
-        width: 216px;
-    }
-}
-
-.not-found-content>.image-404 .cls-1 {
-    fill: #3ba6cc;
-}
-
-.not-found-content>.image-404 .cls-2 {
-    fill: #3eb8eb;
-}
-
-.not-found-content>.image-404 .cls-3 {
-    fill: #c3d4d8;
-}
-
-.not-found-content>.image-404 .cls-4 {
-    fill: #e1ebef;
-}
-
-.not-found-content>.image-404 .cls-5 {
-    fill: #37b7ea;
-}
-
-.not-found-content>.image-404 .cls-6 {
-    fill: #a2b7bc;
-}
-
-.not-found-content>.image-404 .cls-7 {
-    fill: #a9a9a9;
-}
-
-.not-found-content>.image-404 .cls-8 {
-    fill: #9c9b9b;
-}
-
-.not-found-content>.image-404 .cls-9 {
-    fill: #f197be;
-}
-
-.not-found-content>.image-404 .cls-10 {
-    fill: #565656;
-}
-
-.not-found-content>.image-404 .cls-11 {
-    fill: #fff;
-}
-
-.not-found-content>.image-404 .cls-12 {
-    fill: #e9eff2;
-}
-
-.not-found-content>.not-found-head {
-    text-align: center;
-    /* margin-top: 62px; */
-    text-transform: uppercase;
-    color: #3eb8ea;
-    font-size: 66px;
-    font-family: HelveticaNeueW10-35Thin;
-    letter-spacing: 1px;
-    white-space: nowrap;
-}
-
-
-@media (max-width: 320px) {
-    .not-found-content>.not-found-head {
-        font-size: 31px;
-    }
-}
-
-.not-found-content>.description {
-    font-family: HelveticaNeueW10-35Thin;
-    letter-spacing: 1px;
-    font-size: 20px;
-    color: #184a56;
-}
-
-@media (max-width: 320px) {
-    .not-found-content>.description {
-        text-align: left;
-        font-size: 14px;
-        line-height: 24px;
-    }
-}
-
-
-.not-found-content>.button {
-    margin-top: 37px;
-    outline: none;
-    width: 198px;
-    height: 56px;
-    border: 0;
-    letter-spacing: 0.8px;
-    line-height: 53px;
-    font-size: 22px;
-    text-align: center;
-    border-radius: 28px;
-    font-family: HelveticaNeueW10-35Thin;
-    cursor: pointer;
-    border: solid 2px #3eb8ea;
-    background-color: #fff;
-    color: #3eb8ea;
-    box-sizing: border-box;
-    transition-property: color, background-color;
-    transition-duration: 0.2s;
-}
-
-@media (max-width: 320px) {
-    .not-found-content>.button {
-        width: 167px;
-        height: 44px;
-        border-radius: 22px;
-        line-height: 40px;
-        font-size: 16px;
-    }
-}
-
-.not-found-content>.button:hover {
-    background-color: #3eb8ea;
-    color: #fff;
 }

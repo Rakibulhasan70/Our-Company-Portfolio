@@ -23,7 +23,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="holeBody">
       <Header />
       {/* <Navbar2></Navbar2> */}
       <Routes>

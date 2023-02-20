@@ -21,7 +21,7 @@ const Header = () => {
               <NavLink to="/">
                 <span className="sr-only">Workflow</span>
                 <img
-                  className="h-8 w-auto sm:h-10"
+                  className="h-8 w-auto sm:h-10 "
                   src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                   alt=""
                 />
@@ -120,7 +120,7 @@ const Header = () => {
                     <div className="relative grid gap-6 bg-white px-2 py-6 sm:gap-8 sm:p-8">
                       <p className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                         <svg
-                          className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                          className="flex-shrink-0 h-6 w-6 text-[#A370F0]"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
@@ -149,9 +149,8 @@ const Header = () => {
                         </div>
                       </p>
                       <p className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                   
                         <svg
-                          className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                          className="flex-shrink-0 h-6 w-6 text-[#A370F0]"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
@@ -180,9 +179,8 @@ const Header = () => {
                         </div>
                       </p>
                       <p className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                        
                         <svg
-                          className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                          className="flex-shrink-0 h-6 w-6 text-[#A370F0]"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
@@ -218,7 +216,7 @@ const Header = () => {
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
               <a
                 href="https://calendly.com/niharmonirulislam/project-idea"
-                className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-[#A370F0] hover:bg-indigo-700"
               >
                 Talk to Expert
               </a>

@@ -13,7 +13,7 @@ const Banner = () => {
               className="text-5xl text-white"
               textStyle={{
                 fontFamily: "Red Hat Display",
-                color: "#A370F0",
+                color: "#ffff",
                 fontWeight: 900,
                 fontSize: "2em",
               }}
