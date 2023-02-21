@@ -1,3 +1,8 @@
+/* .holeBody{
+background: rgb(218, 176, 176);
+    background: linear-gradient(90deg, rgba(218, 176, 176, 1) 0%, rgba(179, 153, 153, 1) 100%);
+} */
+
 .navbar-nav li>a {
     color: "#FFADOO";
 }

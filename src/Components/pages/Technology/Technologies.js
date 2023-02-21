@@ -46,7 +46,8 @@ const Technologies = () => {
 
 
     return (
-        <div className='overflow-hidden'>
+       <div>
+         <div className='overflow-hidden'>
             <div >
                 <div className='text-2xl font-semibold text-center font-mono bg-[#0E0A31] w-[50%] lg:w-[20%] mx-auto py-2 mt-10'>
                     <h2 className='text-white'>Technologies</h2>
@@ -120,7 +121,11 @@ const Technologies = () => {
                     </div>
                 </Slider>
             </div>
+          </div>
+          
         </div>
+      
+       
     );
 };
 
