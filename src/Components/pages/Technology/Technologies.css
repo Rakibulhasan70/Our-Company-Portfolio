@@ -17,7 +17,7 @@
 }
 
 .hexa {
-    background: #85b3c1;
+    background: #322B5D;
     margin: 1rem auto;
     width: 5rem;
     height: 8rem;
@@ -34,7 +34,7 @@
     left: -32px;
     border-bottom: 4rem solid transparent;
     border-top: 4rem solid transparent;
-    border-right: 2rem solid #85b3c1;
+    border-right: 2rem solid #322B5D;
     padding-right: 0.3px;
 
 }
@@ -50,7 +50,7 @@
     /* margin-left: 0; */
     border-bottom: 4rem solid transparent;
     border-top: 4rem solid transparent;
-    border-left: 2rem solid #85b3c1;
+    border-left: 2rem solid #322B5D;
     padding-right: 1px;
 
 }

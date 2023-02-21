@@ -6,9 +6,12 @@ import worker from '../../../Assets/worker.png'
 import grouth from '../../../Assets/growth.png'
 import './Aboutus.css'
 import TQM from '../../../Assets/about-img/Total_Quality.jpg'
+import useTitle from '../../../hooks/useTitle';
+import Faq from '../Faq/Faq';
 
 
 const AboutUS = () => {
+  useTitle("About Us")
   return (
     <div>
       <div>
@@ -47,14 +50,6 @@ const AboutUS = () => {
                   Start a project with us
                 </a>
               </button>
-              {/* <Link
-                  to="https://calendly.com/niharmonirulislam/project-idea"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-10 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-                >
-                  Start a project
-                </Link> */}
             </div>
           </div>
           <div class="  lg:w-1/2 h-full lg:p-10 lg:pr-6 xl:p-24">
@@ -136,24 +131,25 @@ const AboutUS = () => {
         </section>
       </div>
       <div className=" text-center flex justify-center items-center">
-        {/* <img
-          src="https://smooth-angular.hateng.net/chart.6f8a827fbc052ef5.svg"
-          alt=""
-          srcset=""
-          className="w-20 h-20 rounded-lg mr-5"
-        /> */}
         <div className="title">
           <span>We Inspire You to Come Up with Your Best</span>
+        </div>
+      </div>
+      <div className="flex items-center justify-center my-5">
+        <div className="decor-left">
+          <span></span>
+        </div>
+        <p className="text-[#131313] text-sm font-bold px-4 uppercase -mt-2">Quick Contact</p>
+        <div className="decor-right">
+          <span></span>
         </div>
       </div>
       <div className="max-w-7xl lg:mx-auto md:mx-auto mx-5 grid lg:grid-cols-1 md:grid-cols-1 grid-cols-1 mb-16">
         <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-20 grid-cols-1 mt-16 ">
           <div className="">
-            {/* <div className="text-2xl mb-5 text-cyan-500">Docs</div> */}
             <h1 className="text-4xl  ml-6 mb-3">Flexible working hours</h1>
             <div className="flex">
               <img className="w-16 h-16 rounded" src={hour} alt="" />
-              {/* <IoArrowRedoSharp className="w-12 h-12 text-cyan-500" /> */}
               <h1 className="text-xl ml-6">
 
                 We're a work-oriented and result-driven IT company. Though
@@ -226,216 +222,14 @@ const AboutUS = () => {
             </div>
           </div>
           <div>
-            {/* <div class="w-full px-4 lg:w-1/2">
-              <div class="faq-shadow faq-container single-faq mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
-                <button class="faq-btn flex w-full text-left">
-                  <div class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
-                    <svg
-                      width="17"
-                      height="10"
-                      viewBox="0 0 17 10"
-                      class="about-icon fill-current content"
-                    >
-                      <path
-                        d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                        fill="#3056D3"
-                        stroke="#3056D3"
-                      />
-                    </svg>
-                  </div>
-                  <div class="w-full">
-                    <h4 class="text-lg font-bold  content">
-                      How long we deliver your first blog post?
-                    </h4>
-                  </div>
-                </button>
-                <div x-show="openFaq1" class="faq-content pl-[62px]">
-                  <div class="">
-                    <div class="content">
-                      <p>
-                        It takes 2-3 weeks to get your first blog post ready.
-                        That includes the in-depth research & creation of your
-                        monthly content marketing strategy that we do before
-                        writing your first blog post, Ipsum available.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="faq-shadow faq-container single-faq mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
-                <button class="faq-btn flex w-full text-left">
-                  <div class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
-                    <svg
-                      width="17"
-                      height="10"
-                      viewBox="0 0 17 10"
-                      class="about-icon fill-current content"
-                    >
-                      <path
-                        d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                        fill="#3056D3"
-                        stroke="#3056D3"
-                      />
-                    </svg>
-                  </div>
-                  <div class="w-full">
-                    <h4 class="text-lg font-bold  content">
-                      How long we deliver your first blog post?
-                    </h4>
-                  </div>
-                </button>
-                <div x-show="openFaq1" class="faq-content pl-[62px]">
-                  <div class="">
-                    <div class="content">
-                      <p>
-                        It takes 2-3 weeks to get your first blog post ready.
-                        That includes the in-depth research & creation of your
-                        monthly content marketing strategy that we do before
-                        writing your first blog post, Ipsum available.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="faq-shadow faq-container single-faq mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
-                <button class="faq-btn flex w-full text-left">
-                  <div class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
-                    <svg
-                      width="17"
-                      height="10"
-                      viewBox="0 0 17 10"
-                      class="about-icon fill-current content"
-                    >
-                      <path
-                        d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                        fill="#3056D3"
-                        stroke="#3056D3"
-                      />
-                    </svg>
-                  </div>
-                  <div class="w-full">
-                    <h4 class="text-lg font-semibold text-black content">
-                      How long we deliver your first blog post?
-                    </h4>
-                  </div>
-                </button>
-                <div x-show="openFaq3" class="faq-content pl-[62px]">
-                  <p className="content">
-                    It takes 2-3 weeks to get your first blog post ready. That
-                    includes the in-depth research & creation of your monthly
-                    content marketing strategy that we do before writing your
-                    first blog post, Ipsum available.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="w-full px-4 lg:w-1/2">
-              <div class="faq-shadow faq-container single-faq mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
-                <button class="faq-btn flex w-full text-left">
-                  <div class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
-                    <svg
-                      width="17"
-                      height="10"
-                      viewBox="0 0 17 10"
-                      class="about-icon fill-current content"
-                    >
-                      <path
-                        d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                        fill="#3056D3"
-                        stroke="#3056D3"
-                      />
-                    </svg>
-                  </div>
-                  <div class="w-full">
-                    <h4 class="text-lg font-bold  content">
-                      How long we deliver your first blog post?
-                    </h4>
-                  </div>
-                </button>
-                <div x-show="openFaq1" class="faq-content pl-[62px]">
-                  <div class="">
-                    <div class="content">
-                      <p className="content">
-                        It takes 2-3 weeks to get your first blog post ready.
-                        That includes the in-depth research & creation of your
-                        monthly content marketing strategy that we do before
-                        writing your first blog post, Ipsum available.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="faq-shadow faq-container single-faq mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
-                <button class="faq-btn flex w-full text-left">
-                  <div class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
-                    <svg
-                      width="17"
-                      height="10"
-                      viewBox="0 0 17 10"
-                      class="about-icon fill-current content"
-                    >
-                      <path
-                        d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                        fill="#3056D3"
-                        stroke="#3056D3"
-                      />
-                    </svg>
-                  </div>
-                  <div class="w-full">
-                    <h4 class="text-lg font-semibold text-black content ">
-                      How long we deliver your first blog post?
-                    </h4>
-                  </div>
-                </button>
-                <div x-show="openFaq5" class="faq-content pl-[62px]">
-                  <p class="content">
-                    It takes 2-3 weeks to get your first blog post ready. That
-                    includes the in-depth research & creation of your monthly
-                    content marketing strategy that we do before writing your
-                    first blog post, Ipsum available.
-                  </p>
-                </div>
-              </div>
-              <div class="faq-shadow faq-container single-faq mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
-                <button class="faq-btn flex w-full text-left">
-                  <div class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
-                    <svg
-                      width="17"
-                      height="10"
-                      viewBox="0 0 17 10"
-                      class="about-icon fill-current content"
-                    >
-                      <path
-                        d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                        fill="#3056D3"
-                        stroke="#3056D3"
-                      />
-                    </svg>
-                  </div>
-                  <div class="w-full">
-                    <h4 class="text-lg font-semibold text-black content">
-                      How long we deliver your first blog post?
-                    </h4>
-                  </div>
-                </button>
-                <div x-show="openFaq6" class="faq-content pl-[62px]">
-                  <p className="content">
-                    It takes 2-3 weeks to get your first blog post ready. That
-                    includes the in-depth research & creation of your monthly
-                    content marketing strategy that we do before writing your
-                    first blog post, Ipsum available.
-                  </p>
-                </div>
-              </div>
-            </div> */}
             <div className='grid grid-cols-1 md:grid-cols-2 mb-7'>
               <div className='mx-5'>
-                <h2 className='text-3xl md:text-4xl font-bold text-blue-500 my-5'>Why You Choose us ?</h2>
+                <h2 className='text-3xl md:text-4xl font-bold text-[#43BAFF] my-5'>Why You Choose us ?</h2>
                 <p className='text-justify leading-7 text-xl font-sans'> <span className='font-bold'>Softonixt</span> works in several IT sectors with skilled expert workforce. We possess the experience and expertise to help web entrepreneurs reach their customers across the digital space. We believe that hard work and honesty can do many effective things and with a great team members we have started working on it and prepared a perfect workforce for you.
                   Our young and experienced professionals are here to provide utmost return on your investment in shortest possible time with their talent and proficiency. You are welcome.</p>
               </div>
-              <div class="md:ml-9 mx-5">
+              <Faq />
+              {/* <div class="md:ml-9 mx-5">
                 <div class="grid divide-y divide-neutral-200 max-w-xl">
                   <div class="py-5">
                     <details class="group">
@@ -516,7 +310,7 @@ const AboutUS = () => {
                     </details>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -526,7 +320,7 @@ const AboutUS = () => {
             Can’t find the answer you’re looking for? Please chat to our
             friendly team.
           </p>
-          <button class="py-3 px-7 w-fit border border-solid border-gray-300 rounded-lg bg-white text-gray-700 hover:bg-gray-100 active:bg-gray-200 transition">
+          <button class="py-3 px-7 w-fit shadow-lg text-white rounded-lg bg-[#43BAFF] hover:bg-[#7141B1] transition-all">
             <Link to="contactUs">Get in touch</Link>
           </button>
         </div>

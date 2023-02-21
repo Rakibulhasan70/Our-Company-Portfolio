@@ -11,7 +11,7 @@ import lunchedProject from "../../../Assets/lunchedproject.png";
 const CounterPages = () => {
   return (
     <section className="lg:py-20 md:py-20 py-5">
-      <div className="max-w-7xl lg:mx-auto md:mx-auto mx-5">
+      <div className="max-w-7xl lg:mx-auto md:mx-8 lg:px-8 mx-5">
         <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 lg:gap-12 md:gap-12 gap-5">
           <div className="col-md-4">
             <section class="icon-main-container">
@@ -88,7 +88,7 @@ const CounterPages = () => {
             </section>
             <div className="flex items-center justify-center flex-col">
               <img className="icon mt-10 w-16" src={happyClint} alt="..." />
-              <h3 className="text-2xl text- font-bold lg:mt-4 md:mt-4 mt-0">
+              <h3 className="lg:text-2xl md:text-xl text-lg text- font-bold lg:mt-4 md:mt-4 mt-0">
                 Satisfied Clients
               </h3>
             </div>
@@ -168,7 +168,7 @@ const CounterPages = () => {
             </section>
             <div className="flex items-center justify-center flex-col">
               <img className="icon mt-10 w-16" src={projectIcon} alt="..." />
-              <h3 className="text-2xl text- font-bold lg:mt-4 md:mt-4 mt-0">
+              <h3 className="lg:text-2xl md:text-xl text-lg font-bold lg:mt-4 md:mt-4 mt-0">
                 Project Completed
               </h3>
             </div>
@@ -252,43 +252,11 @@ const CounterPages = () => {
                 src={lunchedProject}
                 alt="..."
               />
-              <h3 className="text-2xl text- font-bold mt-4 ">
+              <h3 className="lg:text-2xl md:text-xl text-lg font-bold mt-4 ">
                 Project Lunched
               </h3>
             </div>
           </div>
-          {/* <div className="bg-white rounded-lg lg:px-8 md:px-8 px-3 lg:py-7 md:py-7 py-4 border-b-8 border-b-[#4338CA] shadow-lg grid justify-items-center">
-                <div className="border-4 border-[#554bcd] h-28 w-28 flex justify-center items-center rounded-full">
-                  <div className="lg:text-3xl md:text-4xl text-3xl text-white font-bold flex items-center justify-center bg-[#554bcd] h-24 w-24 rounded-full">
-                    <VisibilitySensor
-                      partialVisibility
-                      offset={{ bottom: 200 }}
-                    >
-                      {({ isVisible }) => (
-                        <div>{isVisible ? <CountUp end={500} /> : 500}</div>
-                      )}
-                    </VisibilitySensor>
-                    <span>+</span>
-                  </div>
-                </div>
-                <p className="text-2xl text-center mt-2">Projects</p>
-              </div>
-              <div className="bg-white rounded-lg lg:px-8 md:px-8 px-3 lg:py-7 md:py-7 py-4 border-b-8 border-b-[#4338CA] shadow-lg grid justify-items-center">
-                <div className="border-4 border-[#554bcd] h-28 w-28 flex justify-center items-center rounded-full">
-                  <div className="lg:text-3xl md:text-4xl text-3xl text-white font-bold flex items-center justify-center bg-[#554bcd] h-24 w-24 rounded-full">
-                    <VisibilitySensor
-                      partialVisibility
-                      offset={{ bottom: 200 }}
-                    >
-                      {({ isVisible }) => (
-                        <div>{isVisible ? <CountUp end={500} /> : 500}</div>
-                      )}
-                    </VisibilitySensor>
-                    <span>+</span>
-                  </div>
-                </div>
-                <p className="text-2xl text-center mt-2">Projects</p>
-              </div> */}
         </div>
       </div>
     </section>

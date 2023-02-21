@@ -18,6 +18,7 @@ import Header from "./Components/pages/Shared/Header";
 import OurTeam from "./Components/Ourteam/OurTeam";
 import Navbar2 from "./Components/pages/Shared/Navbar2";
 import ServicesDetails from "./Components/pages/ServicesDetails/ServicesDetails";
+import Footer from "./Components/pages/Shared/Footer";
 
 function App() {
 
@@ -31,12 +32,13 @@ function App() {
         <Route path="/home" element={<Home />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/registration" element={<Registration />}></Route>
-        <Route path="/contactUs" element={<ContactUs />}></Route>
+        <Route path="/contact-us" element={<ContactUs />}></Route>
         <Route path="/aboutUs" element={<AboutUS />}></Route>
         <Route path="/ourteam" element={<OurTeam />}></Route>
         <Route path="/services" element={<ServicesDetails />}></Route>
         <Route path="/*" element={<NotFound />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }
