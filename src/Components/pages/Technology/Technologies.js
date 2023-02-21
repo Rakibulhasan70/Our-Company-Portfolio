@@ -46,92 +46,86 @@ const Technologies = () => {
 
 
     return (
-      <div>
-        <div>
-          <div className="my-12">
-            <h1 className="text-black lg:text-4xl md:text-3xl text-2xl font-bold text-center">
-              Let's Build Something
-            </h1>
-            <div className="flex items-center justify-center my-5">
-              <div className="decor-left">
-                <span></span>
-              </div>
-              <p className="text-[#A370F0] text-sm font-bold px-4 uppercase -mt-2">
-                Quick Contact
-              </p>
-              <div className="decor-right">
-                <span></span>
-              </div>
+       <div>
+         <div className='overflow-hidden'>
+            <div >
+                <div className='text-2xl font-semibold text-center font-mono bg-[#0E0A31] w-[50%] lg:w-[20%] mx-auto py-2 mt-10'>
+                    <h2 className='text-white'>Technologies</h2>
+                </div>
+
+
+                <Slider {...settings} className="py-12 ">
+                    <div class="flexs">
+                        <div class="containers ">
+                            <div class="hexa">
+                                <img className='pt-9 w-16 mx-auto' src={reactIcone} alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flexs ">
+                        <div class="containers ">
+                            <div class="hexa">
+                                <img className='pt-9 w-16 mx-auto' src={angularIcone} alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flexs ">
+                        <div class="containers ">
+                            <div class="hexa">
+                                <img className='pt-9 w-16 mx-auto' src={phpIcone} alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flexs ">
+                        <div class="containers">
+                            <div class="hexa">
+                                <img className='pt-9 w-16 mx-auto' src={awsIcone} alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flexs ">
+                        <div class="containers">
+                            <div class="hexa">
+                                <img className='pt-9 w-16 mx-auto' src={vueIcone} alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flexs ">
+                        <div class="containers">
+                            <div class="hexa">
+                                <img className='pt-9 w-48   mx-auto' src={nodeIcone} alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flexs ">
+                        <div class="containers ">
+                            <div class="hexa">
+                                <img className='pt-9 w-16 mx-auto' src={mongodbIcone} alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flexs ">
+                        <div class="containers ">
+                            <div class="hexa">
+                                <img className='pt-9 w-16 mx-auto' src={nextIcone} alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                </Slider>
             </div>
           </div>
-          <Slider {...settings} className="py-12 ">
-            <div class="flexs">
-              <div class="containers ">
-                <div class="hexa">
-                  <img className="pt-9 w-16 mx-auto" src={reactIcone} alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="flexs ">
-              <div class="containers ">
-                <div class="hexa">
-                  <img
-                    className="pt-9 w-16 mx-auto"
-                    src={angularIcone}
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="flexs ">
-              <div class="containers ">
-                <div class="hexa">
-                  <img className="pt-9 w-16 mx-auto" src={phpIcone} alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="flexs ">
-              <div class="containers">
-                <div class="hexa">
-                  <img className="pt-9 w-16 mx-auto" src={awsIcone} alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="flexs ">
-              <div class="containers">
-                <div class="hexa">
-                  <img className="pt-9 w-16 mx-auto" src={vueIcone} alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="flexs ">
-              <div class="containers">
-                <div class="hexa">
-                  <img className="pt-9 w-48   mx-auto" src={nodeIcone} alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="flexs ">
-              <div class="containers ">
-                <div class="hexa">
-                  <img
-                    className="pt-9 w-16 mx-auto"
-                    src={mongodbIcone}
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="flexs ">
-              <div class="containers ">
-                <div class="hexa">
-                  <img className="pt-9 w-16 mx-auto" src={nextIcone} alt="" />
-                </div>
-              </div>
-            </div>
-          </Slider>
+          
         </div>
-      </div>
+      
+       
     );
 };
 

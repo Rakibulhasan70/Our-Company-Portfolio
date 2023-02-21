@@ -1,3 +1,9 @@
+.our-team-bg{
+    background-image: url(../../Assets/ourt-team-img/our-team-bg.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .our-team-section {
     position: relative;
     padding-top: 40px;
@@ -55,7 +61,7 @@
 
 .our-team:hover .pic:before {
     height: 100%;
-    background: #2f2f2f;
+    background: #0E0A31;
 }
 
 .our-team .pic:after {
@@ -72,7 +78,7 @@
 }
 
 .our-team:hover .pic:after {
-    background: #7ab92d;
+    background: #7141B1;
 }
 
 .our-team .pic img {
@@ -93,18 +99,13 @@
 }
 
 .our-team .team-content {
-    margin-bottom: 30px;
-    margin-left: -30px;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
-.our-team .title {
-    font-size: 22px;
-    font-weight: 700;
-    color: black;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-    margin-bottom: 50px;
-    text-align: center;
+.our-team .profession {
+font-size: 18px;
+padding-top: 10px;
 }
 
 .our-team .post {
@@ -119,7 +120,7 @@
     width: 100%;
     padding: 0;
     margin: 0;
-    background: #2f2f2f;
+    background: #0E0A31;
     position: absolute;
     bottom: -100px;
     left: 0;

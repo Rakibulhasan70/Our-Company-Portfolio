@@ -1,8 +1,10 @@
 import React from 'react';
-// import './NotFound.css';
-import notfound from '../../../Assets/notfound/2634442.jpg'
+import useTitle from '../../../hooks/useTitle';
+// import notfound from "../../../Assets/notfound";
+import './NotFound.css';
 
 const NotFound = () => {
+    useTitle("Not Found")
     return (
       <div>
        <div class="min-w-screen min-h-screen bg-blue-100 flex items-center p-5 lg:p-20 overflow-hidden relative">
@@ -24,7 +26,7 @@ const NotFound = () => {
             </div>
         </div>
         <div class="w-full md:w-1/2 text-center">
-            <img src={notfound} className="rounded-lg" alt="...." />
+            {/* <img src={notfound} className="rounded-lg" alt="...." /> */}
            
         </div>
     </div>
