@@ -8,7 +8,6 @@ import vueIcone from '../../../Assets/vuejs-removebg-preview.png'
 import nextIcone from '../../../Assets/next-removebg-preview.png'
 import nodeIcone from '../../../Assets/nodejs-removebg-preview.png'
 import mongodbIcone from '../../../Assets/mongodb-removebg-preview.png'
-
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -19,7 +18,7 @@ const Technologies = () => {
         infinite: true,
         slidesToShow: 6,
         slidesToScroll: 1,
-        autoplay: true,
+        // autoplay: true,
         speed: 6000,
         autoplaySpeed: 1000,
 
@@ -28,7 +27,6 @@ const Technologies = () => {
             {
                 breakpoint: 576,
                 settings: {
-
                     infinite: true,
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -37,18 +35,18 @@ const Technologies = () => {
                     autoplaySpeed: 1000,
                     cssEase: "linear",
                 }
-
             }
+
         ]
 
     };
 
 
     return (
-        <div>
+        <div className='overflow-hidden'>
             <div >
-                <div className='text-2xl font-semibold text-center font-mono bg-[#eff4fa] w-[50%] lg:w-[20%] mx-auto py-2 mt-10 rounded-xl'>
-                    <h2 >Technologiess</h2>
+                <div className='text-2xl font-semibold text-center font-mono bg-[#0E0A31] w-[50%] lg:w-[20%] mx-auto py-2 mt-10'>
+                    <h2 className='text-white'>Technologies</h2>
                 </div>
 
 
@@ -57,7 +55,6 @@ const Technologies = () => {
                         <div class="containers ">
                             <div class="hexa">
                                 <img className='pt-9 w-16 mx-auto' src={reactIcone} alt="" />
-
                             </div>
                         </div>
                     </div>
@@ -96,7 +93,7 @@ const Technologies = () => {
                     <div class="flexs ">
                         <div class="containers">
                             <div class="hexa">
-                                <img className='pt-9 w-48   mx-auto' src={nodeIcone} alt="" />
+                                <img className='pt-9 w-48 mx-auto' src={nodeIcone} alt="" />
 
                             </div>
                         </div>
@@ -113,7 +110,6 @@ const Technologies = () => {
                         <div class="containers ">
                             <div class="hexa">
                                 <img className='pt-9 w-16 mx-auto' src={nextIcone} alt="" />
-
                             </div>
                         </div>
                     </div>
