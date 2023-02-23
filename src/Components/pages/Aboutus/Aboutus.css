@@ -12,7 +12,6 @@
     border-radius: 15px;
     position: relative;
     padding: 25px 30px;
-    /* color: var(--primary-color); */
 }
 
 .faq-container::after {
@@ -51,7 +50,7 @@
 }
 
 .question-bg {
-    background:#322B5D;
+    background: #322B5D;
 }
 
 .faq {
@@ -68,7 +67,6 @@
 
 .faq-title span {
     color: #0E2431;
-    /* font-size: 30px; */
     font-weight: 600;
     position: relative;
     padding-bottom: 8px;
@@ -80,7 +78,6 @@
     position: absolute;
     height: 3px;
     width: 100%;
-    /* background: #4070f4; */
     background: rgb(6 182 212);
     ;
     left: 0;

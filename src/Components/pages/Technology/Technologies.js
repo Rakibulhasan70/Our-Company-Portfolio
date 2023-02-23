@@ -38,7 +38,17 @@ const Technologies = () => {
                     autoplaySpeed: 1000,
                     cssEase: "linear",
                 }
-
+            }, {
+                breakpoint: 1024,
+                settings: {
+                    infinite: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    speed: 5000,
+                    autoplaySpeed: 1000,
+                    cssEase: "linear",
+                }
             }
         ]
 
@@ -46,10 +56,9 @@ const Technologies = () => {
 
 
     return (
-       <div>
-         <div className='overflow-hidden'>
-            <div >
-                <div className='text-2xl font-semibold text-center font-mono bg-[#0E0A31] w-[50%] lg:w-[20%] mx-auto py-2 mt-10'>
+        <div className='overflow-hidden'>
+            <div className='py-12'>
+                <div className='text-2xl font-semibold text-center font-mono bg-[#0E0A31] rounded-lg w-[50%] lg:w-[20%] mx-auto py-2 mt-10'>
                     <h2 className='text-white'>Technologies</h2>
                 </div>
 
@@ -121,11 +130,9 @@ const Technologies = () => {
                     </div>
                 </Slider>
             </div>
-          </div>
-          
         </div>
-      
-       
+
+
     );
 };
 

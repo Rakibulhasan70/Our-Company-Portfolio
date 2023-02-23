@@ -32,13 +32,13 @@ function App() {
         <Route path="/home" element={<Home />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/registration" element={<Registration />}></Route>
-        <Route path="/contactUs" element={<ContactUs />}></Route>
+        <Route path="/contact-us" element={<ContactUs />}></Route>
         <Route path="/aboutUs" element={<AboutUS />}></Route>
         <Route path="/ourteam" element={<OurTeam />}></Route>
         <Route path="/services" element={<ServicesDetails />}></Route>
         <Route path="/*" element={<NotFound />}></Route>
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

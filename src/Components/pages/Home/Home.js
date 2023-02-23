@@ -5,15 +5,20 @@ import Technologies from '../Technology/Technologies';
 import CounterPages from '../counter/CounterPages';
 import WhatWeDo from '../WhatWeDo/WhatWeDo';
 import useTitle from '../../../hooks/useTitle';
+import Faq from '../Faq/Faq';
+import Review from '../Review/Review';
 
 const Home = () => {
   useTitle("Home")
   return (
     <div>
       <Banner></Banner>
+      {/* <Test></Test> */}
+
       <Service></Service>
       <WhatWeDo></WhatWeDo>
       <CounterPages />
+      <Review />
       <Technologies />
     </div>
   );

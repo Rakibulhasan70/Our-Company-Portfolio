@@ -13,10 +13,11 @@ function Footer() {
     return (
         <div>
             <div className='bg-[#0E0A31]'>
-                <div className='max-w-7xl lg:mx-auto md:mx-auto mx-5 pt-20'>
+                <div className='max-w-7xl lg:mx-auto md:mx-8 lg:px-8 mx-5 pt-20'>
                     <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-20 md:gap-20 gap-5 pb-12 FooterListBorder2'>
                         <div className='grid grid-cols-1 gap-8'>
                             {/* <img src={WhiteLogo} alt='White Logo' className='lg:w-44 md:w-44 w-36' /> */}
+                            <p className='text-4xl font-bold text-white'>Logo</p>
                             <p className='text-base text-[#E3E6EA]'>Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum. There are many variations of passages</p>
                             <div className='grid grid-cols-1 gap-2'>
                                 <p className='bg-[#322B5D] px-5 py-4 flex items-center gap-3 text-[#F6FAFF] text-sm font-semibold rounded-md w-64'><img src={CallIconYellow} alt='' />+880125 455785 55</p>
@@ -25,7 +26,7 @@ function Footer() {
                             </div>
                         </div>
                         <div>
-                            <p className='FooterListBorder text-2xl text-white font-bold pb-2'>Our Work</p>
+                            <p className='FooterListBorder text-2xl text-white font-bold pb-2 md:pt-0 pt-8'>Our Work</p>
                             <div className='py-5 grid grid-cols-1 gap-3'>
                                 <Link to='' className='text-base font-semibold text-[#E3E6EA]'>About Us</Link>
                                 <Link to='' className='text-base font-semibold text-[#E3E6EA]'>Vision and Values</Link>
@@ -57,7 +58,7 @@ function Footer() {
                     </div>
                     <div className='lg:flex md:flex grid grid-cols-1 justify-between items-center py-6'>
                         <div>
-                            <p className='text-[#E3E6EA] text-base'>© 2022 Copyrights by <span className='text-[#F74F22] font-semibold'>Optimus Technologies.</span> All Rights Reserved.</p>
+                            <p className='text-[#E3E6EA] text-base md:mb-0 mb-5'>© 2022 Copyrights by <span className='text-[#F74F22] font-semibold'>Optimus Technologies.</span> All Rights Reserved.</p>
                         </div>
                         <div className='flex items-center justify-center gap-4'>
                             <Link to=''><img src={FacebookLogo} alt='Facebook logo' className='bg-[#322B5D] rounded-md px-4 py-4' /></Link>
