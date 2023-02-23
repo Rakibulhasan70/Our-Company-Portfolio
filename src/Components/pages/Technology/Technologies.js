@@ -57,7 +57,7 @@ const Technologies = () => {
 
     return (
         <div className='overflow-hidden'>
-            <div >
+            <div className='py-12'>
                 <div className='text-2xl font-semibold text-center font-mono bg-[#0E0A31] rounded-lg w-[50%] lg:w-[20%] mx-auto py-2 mt-10'>
                     <h2 className='text-white'>Technologies</h2>
                 </div>

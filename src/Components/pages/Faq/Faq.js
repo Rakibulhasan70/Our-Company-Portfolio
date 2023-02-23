@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Faq.css';
 import { HiMinus, HiPlus } from 'react-icons/hi';
+import FaqGif from '../../../Assets/FAQ.gif';
 
 function Faq() {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -41,12 +42,12 @@ function Faq() {
     ];
 
     return (
-        <div className=''>
+        <div>
             <div className='max-w-7xl md:mx-auto mx-5 lg:px-8'>
-                <div className='grid grid-cols-1 justify-items-center items-center'>
+                <div className='grid md:grid-cols-2 grid-cols-1 justify-items-center items-center'>
                     <div className="">
                         {questions.map((q, index) => (
-                            <div key={index} className="my-2 bg-[#F6FAFF] rounded-lg">
+                            <div key={index} className="lg:my-4 md:my-2 my-2 bg-[#F6FAFF] rounded-lg">
                                 <div className='px-3 pt-1'>
                                     <button className={`w-full text-left font-medium focus:outline-none flex items-center justify-between text-[#777B84] pb-1 ${activeIndex === index && 'text-[#0082C4] border-b border-[#E4F0FF]'}`}
                                         onClick={() => handleClick(index)}
@@ -66,6 +67,9 @@ function Faq() {
                                 </div>
                             </div>
                         ))}
+                    </div>
+                    <div className='flex justify-center items-center'>
+                        <img src={FaqGif} alt='Faq Gif' className='w-3/4' />
                     </div>
                 </div>
             </div>
