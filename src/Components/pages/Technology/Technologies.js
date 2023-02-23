@@ -131,6 +131,8 @@ const Technologies = () => {
                 </Slider>
             </div>
         </div>
+
+
     );
 };
 
