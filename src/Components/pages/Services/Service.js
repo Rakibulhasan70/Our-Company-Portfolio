@@ -20,7 +20,7 @@ const Service = () => {
                         <div class="box">
                             <div class="ser-box">
                                 <div class="icon">
-                                    <img src={setting} alt="" />
+                                    <img src={setting} />
                                 </div>
                                 <h4>Web Development</h4>
                                 <p>Lorem Ipsum is simply dummy and typesetting industry.</p>
@@ -81,7 +81,6 @@ const Service = () => {
                     </div>
                 </div>
             </section>
-
         </div>
     );
 };

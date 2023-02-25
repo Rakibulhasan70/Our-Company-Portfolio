@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="relative bg-white sticky top-0 z-30">
+      <div className=" bg-white sticky top-0 z-30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -112,8 +112,8 @@ const Header = () => {
                   onMouseLeave={() => setFlyerTwo(false)}
                   className={
                     flyerTwo
-                      ? " opacity-100 translate-y-0 transition ease-out duration-200 absolute z-10 -ml-4 mt-3 transform px-2 w-48 sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
-                      : " opacity-0 translate-y-1 absolute z-10 -ml-4 mt-3 transform px-2  w-48 sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
+                      ? " block translate-y-0 transition ease-out duration-200 absolute z-10 -ml-4 mt-3 transform px-2 w-48 sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
+                      : " hidden translate-y-1 absolute z-10 -ml-4 mt-3 transform px-2  w-48 sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
                   }
                 >
                   <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
@@ -228,8 +228,8 @@ const Header = () => {
         <div
           className={
             open
-              ? "opacity-100 scale-100 transition ease-out duration-200 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
-              : "opacity-0 scale-95 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+              ? "block scale-100 transition ease-out duration-200 absolute top-0 inset-x-0 p-2 transform origin-top-right md:hidden"
+              : "hidden scale-95 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
           }
         >
           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
@@ -437,8 +437,8 @@ const Header = () => {
                           onMouseLeave={() => setFlyerTwo(false)}
                           className={
                             flyerTwo
-                              ? " opacity-100 translate-y-0 transition ease-out duration-200 absolute z-10 -ml-4 mt-3 transform px-2 w-48 sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
-                              : " opacity-0 translate-y-1 absolute z-10 -ml-4 mt-3 transform px-2 w-48 sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
+                              ? " block translate-y-0 transition ease-out duration-200 absolute z-10 -ml-4 mt-3 transform px-2 w-48 sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
+                              : " hidden translate-y-1 absolute z-10 -ml-4 mt-3 transform px-2 w-48 sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
                           }
                         >
                           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">

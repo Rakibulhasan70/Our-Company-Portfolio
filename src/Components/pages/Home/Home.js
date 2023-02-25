@@ -6,6 +6,7 @@ import CounterPages from '../counter/CounterPages';
 import WhatWeDo from '../WhatWeDo/WhatWeDo';
 import useTitle from '../../../hooks/useTitle';
 import LatestWork from '../Latest-Work/LatestWork';
+import Review from '../Review/Review';
 
 const Home = () => {
   useTitle("Home")
@@ -15,6 +16,7 @@ const Home = () => {
       <Service></Service>
       <WhatWeDo></WhatWeDo>
       <CounterPages />
+      <Review></Review>
       <Technologies />
       <LatestWork></LatestWork>
     </div>

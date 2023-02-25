@@ -219,9 +219,6 @@ i {
 @media (max-width: 991px) {
     .col-md-4 {
         border-right: 0px dashed black;
-        border-bottom: 1px dashed black;
-        /* width: 50%; */
-        /* margin: auto auto; */
         padding-top: 25px;
         padding-bottom: 25px;
     }
