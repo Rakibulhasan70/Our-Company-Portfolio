@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 
-:root {
-    --primary-color: #8ed2a2;
-    --bg-color: #dfe6e9;
-    --text-color: white;
-}
 
 .faq-container {
     background: white;
@@ -12,7 +7,6 @@
     border-radius: 15px;
     position: relative;
     padding: 25px 30px;
-    /* color: var(--primary-color); */
 }
 
 .faq-container::after {
@@ -29,7 +23,7 @@
     transition: all .3s ease-in;
 }
 
-.content {
+.about-content {
     position: relative;
     z-index: 1;
     transition: all .3s ease-in;
@@ -39,20 +33,22 @@
     clip-path: circle(100%);
 }
 
-.faq-container:hover .content {
+.faq-container:hover .about-content {
     color: var(--text-color);
 }
-.faq-shadow{
-border-radius: 11px;
+
+.faq-shadow {
+    border-radius: 11px;
     background: #8ed2a2;
     box-shadow: 10px 10px 0px #395441,
         -10px -10px 0px #ffff;
 }
-.question-bg{
-    background: #395441;
+
+.question-bg {
+    background: #322B5D;
 }
 
-.faq{
+.faq {
     font-family: 'Italianno', cursive;
 }
 
@@ -66,7 +62,6 @@ border-radius: 11px;
 
 .faq-title span {
     color: #0E2431;
-    /* font-size: 30px; */
     font-weight: 600;
     position: relative;
     padding-bottom: 8px;
@@ -78,7 +73,6 @@ border-radius: 11px;
     position: absolute;
     height: 3px;
     width: 100%;
-    /* background: #4070f4; */
     background: rgb(6 182 212);
     ;
     left: 0;
@@ -97,7 +91,7 @@ border-radius: 11px;
         font-size: 25px
     }
 
-    .icon {
+    .about-icon {
         margin-left: -50px;
     }
 
@@ -115,9 +109,9 @@ border-radius: 11px;
 
 .continue-application {
     --color: #fff;
-    --background: #404660;
-    --background-hover: #3A4059;
-    --background-left: #2B3044;
+    --background: #43BAFF;
+    --background-hover: #7141B1;
+    --background-left: #7141B1;
     --folder: #F3E9CB;
     --folder-inner: #BEB393;
     --paper: #FFFFFF;
@@ -312,4 +306,19 @@ border-radius: 11px;
     --pby: -3px;
     --pbd: .15s;
     --pex: -24px;
+}
+
+
+
+
+.accordion-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.1s ease-out;
+}
+
+
+.accordion-answer-open {
+    max-height: 500px;
+    transition: max-height 0.3s ease-in;
 }
