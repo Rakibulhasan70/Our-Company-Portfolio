@@ -1,9 +1,10 @@
-.our-team-bg{
+.our-team-bg {
     background-image: url(../../Assets/ourt-team-img/our-team-bg.jpg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 .our-team-section {
     position: relative;
     padding-top: 40px;
@@ -104,8 +105,8 @@
 }
 
 .our-team .profession {
-font-size: 18px;
-padding-top: 10px;
+    font-size: 18px;
+    padding-top: 10px;
 }
 
 .our-team .post {

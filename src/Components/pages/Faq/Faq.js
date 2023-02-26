@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Faq.css';
 import { HiMinus, HiPlus } from 'react-icons/hi';
-import FaqGif from '../../../Assets/FAQ.gif';
+import FaqGif from '../../../Assets/about-img/FAQ.gif'
 
 function Faq() {
     const [activeIndex, setActiveIndex] = useState(null);

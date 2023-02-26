@@ -58,7 +58,7 @@ function Footer() {
                     </div>
                     <div className='lg:flex md:flex grid grid-cols-1 justify-between items-center py-6'>
                         <div>
-                            <p className='text-[#E3E6EA] text-base md:mb-0 mb-5'>© 2022 Copyrights by <span className='text-[#F74F22] font-semibold'>Optimus Technologies.</span> All Rights Reserved.</p>
+                            <p className='text-[#E3E6EA] text-base'>© 2022 Copyrights by <span className='text-[#F74F22] font-semibold'>Softonixt Technologies.</span> All Rights Reserved.</p>
                         </div>
                         <div className='flex items-center justify-center gap-4'>
                             <Link to=''><img src={FacebookLogo} alt='Facebook logo' className='bg-[#322B5D] rounded-md px-4 py-4' /></Link>

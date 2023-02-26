@@ -41,7 +41,7 @@ const OurTeam = () => {
                   <img src={niharImg} alt="..." />
                 </div>
                 <div class="team-content">
-                <h2 className="text-2xl font-bold">
+                  <h2 className="text-2xl font-bold">
                     Monirul Islam Nihar
                   </h2>
                   <h3 class="profession">Web Developer</h3>
@@ -171,7 +171,7 @@ const OurTeam = () => {
                   <img src={naeemImg} alt="..." />
                 </div>
                 <div class="team-content">
-                <h2 className="text-2xl font-bold">
+                  <h2 className="text-2xl font-bold">
                     Jannatun Naeem
                   </h2>
                   <h3 class="profession">Web Developer</h3>
@@ -300,7 +300,7 @@ const OurTeam = () => {
                   <img src={sohagImg} alt="..." />
                 </div>
                 <div class="team-content">
-                <h2 className="text-2xl font-bold">
+                  <h2 className="text-2xl font-bold">
                     Rakibul Hasan Sohag
                   </h2>
                   <h3 class="profession">Web Developer</h3>
@@ -430,7 +430,7 @@ const OurTeam = () => {
                   <img src={hridoyImg} alt="..." />
                 </div>
                 <div class="team-content">
-                <h2 className="text-2xl font-bold">
+                  <h2 className="text-2xl font-bold">
                     Saiful Islam Hridoy
                   </h2>
                   <h3 class="profession">Web Developer</h3>

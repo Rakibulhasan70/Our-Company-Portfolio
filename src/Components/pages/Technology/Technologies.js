@@ -8,7 +8,6 @@ import vueIcone from '../../../Assets/vuejs-removebg-preview.png'
 import nextIcone from '../../../Assets/next-removebg-preview.png'
 import nodeIcone from '../../../Assets/nodejs-removebg-preview.png'
 import mongodbIcone from '../../../Assets/mongodb-removebg-preview.png'
-
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -16,11 +15,10 @@ import "slick-carousel/slick/slick-theme.css";
 const Technologies = () => {
 
     var settings = {
-
         infinite: true,
         slidesToShow: 6,
         slidesToScroll: 1,
-        autoplay: true,
+        // autoplay: true,
         speed: 6000,
         autoplaySpeed: 1000,
 
@@ -29,7 +27,6 @@ const Technologies = () => {
             {
                 breakpoint: 576,
                 settings: {
-
                     infinite: true,
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -50,6 +47,7 @@ const Technologies = () => {
                     cssEase: "linear",
                 }
             }
+
         ]
 
     };
@@ -68,7 +66,6 @@ const Technologies = () => {
                         <div class="containers ">
                             <div class="hexa">
                                 <img className='pt-9 w-16 mx-auto' src={reactIcone} alt="" />
-
                             </div>
                         </div>
                     </div>
@@ -107,7 +104,7 @@ const Technologies = () => {
                     <div class="flexs ">
                         <div class="containers">
                             <div class="hexa">
-                                <img className='pt-9 w-48   mx-auto' src={nodeIcone} alt="" />
+                                <img className='pt-9 w-48 mx-auto' src={nodeIcone} alt="" />
 
                             </div>
                         </div>
@@ -124,7 +121,6 @@ const Technologies = () => {
                         <div class="containers ">
                             <div class="hexa">
                                 <img className='pt-9 w-16 mx-auto' src={nextIcone} alt="" />
-
                             </div>
                         </div>
                     </div>

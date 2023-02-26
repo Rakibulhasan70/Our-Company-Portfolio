@@ -29,7 +29,7 @@ function ServicesDetails() {
         </section>
         <div className='we-are-different-bg grid grid-cols-1 lg:grid-cols-2 justify-center justify-items-center items-center py-10 px-5 lg:px-14'>
           <div className=''>
-            <h1 className='text-3xl lg:text-4xl text-white font-bold border-l-4 pl-5 border-white'>Why We Are Different:</h1>
+            <h1 className='text-2xl text-center lg:text-start lg:text-4xl text-white font-bold lg:border-l-4 pl-5 border-white'>Why We Are Different</h1>
             <p className='text-white mt-5 text-xl font-sans text-justify'>Our core values define who we are as a company as well as the people who work here. They are what drive us to succeed and what we strive for every day.</p>
             <button className='bg-[#43BAFF] hover:bg-[#7141B1] transition-all py-3 px-6 rounded-md text-white my-5'>CONTACT US</button>
           </div>
@@ -65,9 +65,9 @@ function ServicesDetails() {
         </div>
       </section>
       <section className=' mx-8 mt-7 md:mx-20'>
-      <div class="mt-[100px] mb-[100px]">
-          <h2 className='text-center text-5xl font-bold mb-2'>We Offer a Wide</h2>
-          <h2 className='text-center text-5xl font-bold'>Variety of IT Services</h2>
+        <div class="mt-[70px] lg:mt-[100px] mb-[70px] lg:mb-[100px]">
+          <h2 className='text-center text-3xl lg:text-5xl font-bold mb-2'>We Offer a Wide</h2>
+          <h2 className='text-center text-3xl lg:text-5xl font-bold'>Variety of IT Services</h2>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2'>
           <div className='order-last lg:order-first'>

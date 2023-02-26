@@ -183,6 +183,11 @@
     background: #7141B1;
 }
 
+.submit-button:hover {
+
+    background: #7141B1;
+}
+
 .submit-button span {
     display: block;
     transition: all 0.3s ease-in-out;
@@ -218,7 +223,3 @@
         transform: translateY(-0.1em);
     }
 }
-
-
-
-

@@ -5,7 +5,7 @@ import Technologies from '../Technology/Technologies';
 import CounterPages from '../counter/CounterPages';
 import WhatWeDo from '../WhatWeDo/WhatWeDo';
 import useTitle from '../../../hooks/useTitle';
-import Faq from '../Faq/Faq';
+import LatestWork from '../Latest-Work/LatestWork';
 import Review from '../Review/Review';
 
 const Home = () => {
@@ -18,8 +18,9 @@ const Home = () => {
       <Service></Service>
       <WhatWeDo></WhatWeDo>
       <CounterPages />
-      <Review />
+      <Review></Review>
       <Technologies />
+      <LatestWork></LatestWork>
     </div>
   );
 };
